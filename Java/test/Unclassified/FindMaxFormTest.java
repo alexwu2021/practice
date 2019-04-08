@@ -1,4 +1,4 @@
-package main.java.SomeRandomWork;
+package Unclassified;
 
 import static org.junit.Assert.*;
 

@@ -1,4 +1,4 @@
-package main.java.SomeRandomWork;//package main.java.SomeRandomWork
+package Unclassified;//package main.java.SomeRandomWork
 
 import org.junit.Test;
 
