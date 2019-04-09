@@ -8,7 +8,7 @@ public class CanPlaceFlowers {
      * @param n
      * @return
      */
-    public boolean canPlaceFlowers_mine(int[] flowerbed, int n) {
+    public boolean canPlaceFlowers(int[] flowerbed, int n) {
         if (n <= 0) return true;
         if(flowerbed == null || flowerbed.length <= 0)
             return false;
