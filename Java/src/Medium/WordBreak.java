@@ -16,7 +16,7 @@ public class WordBreak {
      * @param wordDict
      * @return
      */
-    public boolean wordBreak_submission1(String s, List<String> wordDict) {
+    public boolean wordBreak(String s, List<String> wordDict) {
         int n = s.length();
         boolean[] f = new boolean[n + 1];
         Set<String> st = new HashSet<>(wordDict);
