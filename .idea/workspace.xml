@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/DIStringMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Easy/FindAnagramMappingsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SQL/ShortestDistanceInTheSameTable.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Easy/FlipAndInvertImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/BinaryTreePruning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Hard/ThreeEqualParts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Hard/ThreeEqualParts.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,48 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Easy/RemoveOutermostParenthesesTest.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/WordBreak.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/RemoveOutermostParentheses.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SQL/ShortestDistanceInTheSameTable.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,20 +28,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/DIStringMatch.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/BombEnemy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Easy/FindAnagramMappingsTest.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Hard/ThreeEqualParts.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/BinaryTreePruning.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="751">
+              <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/FlipAndInvertImage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/test/Hard/ThreeEqualPartsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/WordBreakTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="1958" column="29" lean-forward="true" selection-start-line="1958" selection-start-column="29" selection-end-line="1958" selection-end-column="29" />
+            <state relative-caret-position="32079">
+              <caret line="1958" column="29" selection-start-line="1958" selection-start-column="29" selection-end-line="1958" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -104,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="102">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
@@ -147,6 +146,13 @@
         <option value="$PROJECT_DIR$/Java/test/Easy/FindAnagramMappingsTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/DIStringMatch.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/FindContestMatch.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/WordBreakTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/BombEnemy.java" />
+        <option value="$PROJECT_DIR$/Java/test/Hard/ThreeEqualPartsTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/WordBreak.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/BinaryTreePruning.java" />
+        <option value="$PROJECT_DIR$/Java/src/Hard/ThreeEqualParts.java" />
       </list>
     </option>
   </component>
@@ -169,14 +175,16 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1930" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +214,13 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Hard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -217,19 +232,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554789373397" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554992797994" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -237,11 +251,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Easy" />
+      <recent name="Hard" />
       <recent name="Medium" />
+      <recent name="Easy" />
       <recent name="Special.Implementation" />
       <recent name="Special.Graph" />
-      <recent name="Special.DP" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Alex\git\practice\SQL" />
@@ -266,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FindAnagramMappingsTest.anagramMappings">
+  <component name="RunManager" selected="JUnit.ThreeEqualPartsTest.getBitValue">
     <configuration name="FindAnagramMappingsTest.anagramMappings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -299,8 +313,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeEqualPartsTest.getBitValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hard" />
+      <option name="MAIN_CLASS_NAME" value="Hard.ThreeEqualPartsTest" />
+      <option name="METHOD_NAME" value="getBitValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordBreakTest.wordBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Medium" />
+      <option name="MAIN_CLASS_NAME" value="Medium.WordBreakTest" />
+      <option name="METHOD_NAME" value="wordBreak" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ThreeEqualPartsTest.getBitValue" />
+        <item itemvalue="JUnit.WordBreakTest.wordBreak" />
         <item itemvalue="JUnit.FindAnagramMappingsTest.anagramMappings" />
         <item itemvalue="JUnit.RemoveOutermostParenthesesTest.removeOuterParentheses" />
       </list>
@@ -317,81 +365,95 @@
       <option name="presentableId" value="Default" />
       <updated>1554701147835</updated>
       <workItem from="1554701149865" duration="16067000" />
+      <workItem from="1554871738174" duration="3739000" />
+      <workItem from="1554951989398" duration="5540000" />
     </task>
+    <task id="LOCAL-00001" summary="more works">
+      <created>1554960786210</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554960786210</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RemoveOutermostParenthesesTest_removeOuterParentheses - 2019.04.08 at 21h 31m 09s.xml">
-      <configuration name="RemoveOutermostParenthesesTest.removeOuterParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveOutermostParenthesesTest_removeOuterParentheses - 2019.04.08 at 21h 31m 14s.xml">
-      <configuration name="RemoveOutermostParenthesesTest.removeOuterParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveOutermostParenthesesTest_removeOuterParentheses - 2019.04.08 at 21h 35m 01s.xml">
-      <configuration name="RemoveOutermostParenthesesTest.removeOuterParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveOutermostParenthesesTest_removeOuterParentheses - 2019.04.08 at 21h 36m 08s.xml">
-      <configuration name="RemoveOutermostParenthesesTest.removeOuterParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RemoveOutermostParenthesesTest_removeOuterParentheses - 2019.04.08 at 21h 46m 44s.xml">
-      <configuration name="RemoveOutermostParenthesesTest.removeOuterParentheses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindAnagramMappingsTest_anagramMappings - 2019.04.08 at 22h 19m 19s.xml">
-      <configuration name="FindAnagramMappingsTest.anagramMappings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindAnagramMappingsTest_anagramMappings - 2019.04.08 at 22h 19m 27s.xml">
-      <configuration name="FindAnagramMappingsTest.anagramMappings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindAnagramMappingsTest_anagramMappings - 2019.04.08 at 22h 21m 44s.xml">
-      <configuration name="FindAnagramMappingsTest.anagramMappings" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindAnagramMappingsTest_anagramMappings - 2019.04.08 at 22h 29m 53s.xml">
-      <configuration name="FindAnagramMappingsTest.anagramMappings" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FindAnagramMappingsTest_anagramMappings - 2019.04.08 at 22h 29m 57s.xml">
       <configuration name="FindAnagramMappingsTest.anagramMappings" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 17m 41s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 22m 54s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 23m 29s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 27m 58s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 28m 20s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 28m 58s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WordBreakTest_wordBreak - 2019.04.09 at 22h 29m 07s.xml">
+      <configuration name="WordBreakTest.wordBreak" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeEqualPartsTest_getBitValue - 2019.04.10 at 20h 42m 31s.xml">
+      <configuration name="ThreeEqualPartsTest.getBitValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ThreeEqualPartsTest_getBitValue - 2019.04.10 at 22h 06m 40s.xml">
+      <configuration name="ThreeEqualPartsTest.getBitValue" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16067000" />
+    <option name="totallyTimeSpent" value="25346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14697987" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42080536" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24504249" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5524079" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2733711" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.33002833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" visible="true" weight="0.13355705" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.13355705" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="more works" />
+    <option name="LAST_COMMIT_MESSAGE" value="more works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,11 +506,40 @@
           <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/WordBreakTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/WordBreak.java</url>
+          <line>8</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/ThreeEqualPartsTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/BinaryTreePruning.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>s.substring(r, k+1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>S.substring(j, 5)</expression-string>
         <language-id>JAVA</language-id>
@@ -530,9 +621,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bash/togglingIds.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/togglingIds.sql" />
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/HandOfStraights.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -612,17 +701,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java">
+    <entry file="file://$PROJECT_DIR$/Java/test/Easy/RemoveOutermostParenthesesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="289">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/RemoveOutermostParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="5" selection-start-line="23" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SQL/ShortestDistanceInTheSameTable.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/DIStringMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/FindContestMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Easy/FindAnagramMappingsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1958" column="29" lean-forward="true" selection-start-line="1958" selection-start-column="29" selection-end-line="1958" selection-end-column="29" />
+        <state relative-caret-position="32079">
+          <caret line="1958" column="29" selection-start-line="1958" selection-start-column="29" selection-end-line="1958" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -633,55 +777,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/RemoveOutermostParenthesesTest.java">
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/RemoveOutermostParentheses.java">
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/BombEnemy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SQL/ShortestDistanceInTheSameTable.sql">
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/WordBreakTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="134">
+          <caret line="14" column="12" lean-forward="true" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/WordBreak.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/FindAnagramMappingsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/DIStringMatch.java">
+    <entry file="file://$PROJECT_DIR$/Java/test/Hard/ThreeEqualPartsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Hard/ThreeEqualParts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/BinaryTreePruning.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="56" column="39" lean-forward="true" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/FlipAndInvertImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
         </state>
       </provider>
     </entry>
