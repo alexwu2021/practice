@@ -27,7 +27,7 @@ public class MininumTimeDifference {
         int min = axis.length, curr = axis.length;
         for (int i = 0; i < axis.length; ++i) {
             if (axis[i]) {
-                if (curr < min) { min = curr;}
+                if (curr < min) { min = curr;} // only enter here on the second axis[i] == true and so on
                 curr = 1;
             } else {
                 curr++;
@@ -35,7 +35,7 @@ public class MininumTimeDifference {
         }
 
         // now check wrap around time diff
-        int dist = 1;
+        int dist = 1; // distance
         int first = 0;
         while (!axis[first]) { first++; dist++; }
 
