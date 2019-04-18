@@ -28,4 +28,6 @@ workspace.xml
 */.idea
 */.idea/*
 .idea/workspace.xml
+*/workspace.xml
+
 
