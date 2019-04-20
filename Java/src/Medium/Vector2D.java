@@ -16,119 +16,38 @@ test case is
 */
 
 public  class Vector2D {
-    private int iList, iElement;
-    private int [][] vec;
+    int row, col;
+    int[][] vec;
 
-    public Vector2D(int[][] vec2d) {
-        iList = 0;
-        iElement = 0;
-        vec = vec2d;
+    /**
+     * @param v
+     *
+     * In fact, this version runs faster than the followup one
+     * which employes iterator
+     * Runtime: 54 ms
+     * Memory Usage: 47.5 MB
+     */
+    public Vector2D(int[][] v) {
+        this.vec = v;
+        row = col = 0;
     }
 
     public int next() {
-        return vec[iList][iElement++];
+        if (!hasNext())
+            return Integer.MIN_VALUE;
+
+        int ret =  vec[row][col];
+        col++;
+        return ret;
     }
 
     public boolean hasNext() {
-        while(iList < vec.length){
-            if(iElement < vec[iList].length)
-                return true;
-            iList++;
-            iElement = 0;
+        if (row >= vec.length) return false;
+        if (col >= vec[row].length) {
+            col = 0;
+            row++;
+            return hasNext();
         }
-        return false;
+        return true;
     }
 }
-
-
-//public class Vector2D{
-//
-//    int iList, iElement;
-//    List<List<Integer>> vec;
-//
-//    public Vector2D(List<List<Integer>> vec2d) {
-//        iList = 0;
-//        iElement = 0;
-//        vec = vec2d;
-//    }
-//
-//    public int next() {
-//        return vec.get(iList).get(iElement++);
-//    }
-//
-//    public boolean hasNext() {
-//        while(iList < vec.size()){
-//            if(iElement < vec.get(iList).size())
-//                return true;
-//            iList++;
-//            iElement = 0;
-//        }
-//        return false;
-//    }
-//}
-
-
-
-/**
- * Design and implement an iterator to flatten a 2d vector. It should support the following operations: next and hasNext.
- *
- *
- * the following is from StefanPochemann but it has interface issue
- *
- */
-//public class Vector2D {
-//
-//    private Iterator<List<Integer>> _listIterator;
-//    private Iterator<Integer> integerIterator;
-//
-//    public Vector2D(List<List<Integer>> vec2d) {
-//        _listIterator = vec2d.iterator();
-//    }
-//
-//    public int next() {
-//        hasNext(); // forced to call hasNext first
-//        return integerIterator.next();
-//    }
-//
-//    public boolean hasNext() {
-//        // set up integerIterator
-//        while ((integerIterator == null || !integerIterator.hasNext()) && _listIterator.hasNext())
-//            integerIterator = _listIterator.next().iterator();
-//
-//        return integerIterator != null && integerIterator.hasNext();
-//    }
-//}
-
-// initial view
-//class Vector2D {
-//
-//    public Vector2D(int[][] v) {
-//
-//    }
-//
-//    public int next() {
-//
-//    }
-//
-//    public boolean hasNext() {
-//
-//    }
-//}
-//
-///**
-// * Your Vector2D object will be instantiated and called as such:
-// * Vector2D obj = new Vector2D(v);
-// * int param_1 = obj.next();
-// * boolean param_2 = obj.hasNext();
-// */
-//
-
-//    Vector2D iterator = new Vector2D([[1,2],[3],[4]]);
-//
-//        iterator.next(); // return 1
-//        iterator.next(); // return 2
-//        iterator.next(); // return 3
-//        iterator.hasNext(); // return true
-//        iterator.hasNext(); // return true
-//        iterator.next(); // return 4
-//        iterator.hasNext(); // return false
