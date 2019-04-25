@@ -3,11 +3,15 @@
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/DailyTemperatureTest.java" line="15" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/ValidBSTTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Special/DP/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Special/DP/RegularExpressionMatching.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Special/DP/BuySellStock1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Special/DP/BuySellStock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Special/DP/MaxRect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
@@ -23,94 +27,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/WordLadder.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/BuySellStock1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/MinHeightTree.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/BuySellStock2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="377">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/LexicographicalNumbers.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/TagValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="119">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/HouseRobber.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/HouseRobber2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/HouseRobber3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="30" column="48" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/ZumaGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="100" column="5" selection-start-line="41" selection-start-column="4" selection-end-line="100" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/RegularExpressionMatching.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/EditDistance.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Special/DP/MaxRect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+            <state relative-caret-position="185">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -151,11 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Hard/RobotCleanRoom.java" />
-        <option value="$PROJECT_DIR$/Java/src/Medium/MineSweeper.java" />
-        <option value="$PROJECT_DIR$/Java/src/Medium/MininumTimeDifference.java" />
-        <option value="$PROJECT_DIR$/Java/src/Medium/PourWater.java" />
-        <option value="$PROJECT_DIR$/Java/test/Medium/MaxProdSubArrayTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/MaxProdSubArray.java" />
         <option value="$PROJECT_DIR$/Java/test/Hard/MaxSlidingWindowTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Hard/MaxSlidingWindow.java" />
@@ -202,6 +162,11 @@
         <option value="$PROJECT_DIR$/Java/src/Hard/ZumaGame.java" />
         <option value="$PROJECT_DIR$/Java/src/Special/DP/RegularExpressionMatching.java" />
         <option value="$PROJECT_DIR$/Java/src/Special/DP/EditDistance.java" />
+        <option value="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java" />
+        <option value="$PROJECT_DIR$/Java/src/Special/DP/BuySellStock2.java" />
+        <option value="$PROJECT_DIR$/Java/src/Special/DP/BuySellStock1.java" />
+        <option value="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java" />
+        <option value="$PROJECT_DIR$/Java/test/Special/DP/MaxRect.java" />
       </list>
     </option>
   </component>
@@ -266,7 +231,20 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Special" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Special" type="462c0819:PsiDirectoryNode" />
               <item name="DP" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -275,6 +253,8 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="Special" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,11 +282,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Special.DP" />
       <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Easy" />
       <recent name="Special.Implementation" />
-      <recent name="Special.Graph" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -321,6 +301,7 @@
       <recent name="Easy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Special.DP" />
       <recent name="Easy" />
       <recent name="Medium" />
     </key>
@@ -341,82 +322,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ValidBSTTest.isValidBST">
-    <configuration name="DailyTemperatureTest.dailyTemperatures" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BuySellStock2Test.maxProfit2">
+    <configuration name="BuySellStock1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Medium.*" />
+          <option name="PATTERN" value="Special.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.DailyTemperatureTest" />
-      <option name="METHOD_NAME" value="dailyTemperatures" />
+      <option name="PACKAGE_NAME" value="Special.DP" />
+      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuySellStock1Test.maxProfit1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Special.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Special.DP" />
+      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock1Test" />
+      <option name="METHOD_NAME" value="maxProfit1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixSearch2Test.searchMatrix" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuySellStock2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Medium.*" />
+          <option name="PATTERN" value="Special.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.MatrixSearch2Test" />
-      <option name="METHOD_NAME" value="searchMatrix" />
+      <option name="PACKAGE_NAME" value="Special.DP" />
+      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuySellStock2Test.maxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Special.DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Special.DP" />
+      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock2Test" />
+      <option name="METHOD_NAME" value="maxProfit" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSlidingWindowTest.maxSlidingWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BuySellStock2Test.maxProfit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hard.*" />
+          <option name="PATTERN" value="Special.DP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hard" />
-      <option name="MAIN_CLASS_NAME" value="Hard.MaxSlidingWindowTest" />
-      <option name="METHOD_NAME" value="maxSlidingWindow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UniquePath2Test.uniquePathsWithObstacles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.UniquePath2Test" />
-      <option name="METHOD_NAME" value="uniquePathsWithObstacles" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidBSTTest.isValidBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.ValidBSTTest" />
-      <option name="METHOD_NAME" value="isValidBST" />
+      <option name="PACKAGE_NAME" value="Special.DP" />
+      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock2Test" />
+      <option name="METHOD_NAME" value="maxProfit2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -424,11 +403,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ValidBSTTest.isValidBST" />
-        <item itemvalue="JUnit.UniquePath2Test.uniquePathsWithObstacles" />
-        <item itemvalue="JUnit.MatrixSearch2Test.searchMatrix" />
-        <item itemvalue="JUnit.DailyTemperatureTest.dailyTemperatures" />
-        <item itemvalue="JUnit.MaxSlidingWindowTest.maxSlidingWindow" />
+        <item itemvalue="JUnit.BuySellStock2Test.maxProfit2" />
+        <item itemvalue="JUnit.BuySellStock1Test.maxProfit1" />
+        <item itemvalue="JUnit.BuySellStock1Test" />
+        <item itemvalue="JUnit.BuySellStock2Test.maxProfit" />
+        <item itemvalue="JUnit.BuySellStock2Test" />
       </list>
     </recent_temporary>
   </component>
@@ -459,45 +438,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UniquePath2Test_uniquePathsWithObstacles - 2019.04.21 at 09h 28m 17s.xml">
-      <configuration name="UniquePath2Test.uniquePathsWithObstacles" configurationId="JUnit" />
+    <history-entry file="BuySellStock2Test - 2019.04.24 at 22h 13m 16s.xml">
+      <configuration name="BuySellStock2Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniquePath2Test_uniquePathsWithObstacles - 2019.04.21 at 09h 28m 56s.xml">
-      <configuration name="UniquePath2Test.uniquePathsWithObstacles" configurationId="JUnit" />
+    <history-entry file="BuySellStock2Test_maxProfit - 2019.04.24 at 22h 23m 49s.xml">
+      <configuration name="BuySellStock2Test.maxProfit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniquePath2Test_uniquePathsWithObstacles - 2019.04.21 at 09h 32m 29s.xml">
-      <configuration name="UniquePath2Test.uniquePathsWithObstacles" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test_maxProfit1 - 2019.04.24 at 22h 23m 49s.xml">
+      <configuration name="BuySellStock1Test.maxProfit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UniquePath2Test_uniquePathsWithObstacles - 2019.04.21 at 09h 34m 23s.xml">
-      <configuration name="UniquePath2Test.uniquePathsWithObstacles" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test_maxProfit1 - 2019.04.24 at 22h 25m 58s.xml">
+      <configuration name="BuySellStock1Test.maxProfit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidBSTTest_isValidBST - 2019.04.21 at 09h 48m 52s.xml">
-      <configuration name="ValidBSTTest.isValidBST" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test_maxProfit1 - 2019.04.24 at 22h 28m 02s.xml">
+      <configuration name="BuySellStock1Test.maxProfit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidBSTTest_isValidBST - 2019.04.21 at 09h 49m 13s.xml">
-      <configuration name="ValidBSTTest.isValidBST" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test_maxProfit1 - 2019.04.24 at 22h 29m 12s.xml">
+      <configuration name="BuySellStock1Test.maxProfit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidBSTTest_isValidBST - 2019.04.21 at 09h 54m 12s.xml">
-      <configuration name="ValidBSTTest.isValidBST" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test - 2019.04.24 at 22h 58m 18s.xml">
+      <configuration name="BuySellStock1Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidBSTTest_isValidBST - 2019.04.21 at 09h 57m 00s.xml">
-      <configuration name="ValidBSTTest.isValidBST" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test_maxProfit1 - 2019.04.24 at 22h 59m 28s.xml">
+      <configuration name="BuySellStock1Test.maxProfit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidBSTTest_isValidBST - 2019.04.21 at 09h 57m 37s.xml">
-      <configuration name="ValidBSTTest.isValidBST" configurationId="JUnit" />
+    <history-entry file="BuySellStock1Test_maxProfit1 - 2019.04.24 at 23h 02m 13s.xml">
+      <configuration name="BuySellStock1Test.maxProfit1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ValidBSTTest_isValidBST - 2019.04.21 at 10h 07m 52s.xml">
-      <configuration name="ValidBSTTest.isValidBST" configurationId="JUnit" />
+    <history-entry file="BuySellStock2Test_maxProfit2 - 2019.04.24 at 23h 03m 03s.xml">
+      <configuration name="BuySellStock2Test.maxProfit2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104691000" />
+    <option name="totallyTimeSpent" value="111860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.020134227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17449665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +485,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.09206799" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.20113315" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -523,10 +502,41 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.020134227" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.044966444" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449665" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16572239" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.20113315" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.31275168" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.19664429" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -730,6 +740,30 @@
           <properties />
           <option name="timeStamp" value="51" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -783,44 +817,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/DailyTemperatureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/GridSearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Medium/MatrixSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="693" column="43" lean-forward="true" selection-start-line="693" selection-start-column="43" selection-end-line="693" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/EmployeeImportance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/CarFleet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-172">
@@ -990,24 +986,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#728#922#0" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1108,7 +1086,7 @@
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/LexicographicalNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1132,7 +1110,7 @@
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/HouseRobber3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
-          <caret line="30" column="48" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <caret line="30" column="48" selection-start-line="16" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1146,21 +1124,70 @@
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/HouseRobber.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/RegularExpressionMatching.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/EditDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="36" column="6" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        <state relative-caret-position="183">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/BuySellStock2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Special/DP/BuySellStock1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Special/DP/MaxRect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
         </state>
       </provider>
     </entry>
