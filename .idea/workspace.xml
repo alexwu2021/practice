@@ -6,19 +6,17 @@
     <bookmark url="file://$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Easy/FindMinInRotatedSortedArrayTest.java" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" line="65" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/CheckPerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/CheckPerfectNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/LicenseKeyFormatting.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/LicenseKeyFormatting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/MinMove2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/MinMove2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/MostCommonWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/MostCommonWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/minDeletionSize.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python/minDeletionSize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,17 +33,83 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="31" column="37" selection-start-line="25" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="502">
+              <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -89,10 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Medium/MatrixSearch2.java" />
-        <option value="$PROJECT_DIR$/Java/test/Easy/EmployeeImportance.java" />
-        <option value="$PROJECT_DIR$/Java/src/Medium/CarFleet.java" />
-        <option value="$PROJECT_DIR$/Java/src/Medium/CourseScheduler.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/GenerateParanthesis.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/ImageOverlap.java" />
         <option value="$PROJECT_DIR$/Java/src/Hard/KnightDialer.java" />
@@ -140,6 +200,10 @@
         <option value="$PROJECT_DIR$/Java/src/Easy/KthLargestElementInAStream.java" />
         <option value="$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" />
+        <option value="$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java" />
+        <option value="$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" />
       </list>
     </option>
   </component>
@@ -193,7 +257,7 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="Hard" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -221,8 +285,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Easy" />
       <recent name="Hard" />
+      <recent name="Easy" />
       <recent name="Special.DP" />
       <recent name="Medium" />
       <recent name="Special.Implementation" />
@@ -263,34 +327,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.KthLargestTest.add">
-    <configuration name="BuySellStock1Test.maxProfit1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeKSortedListsTest.mergeKLists">
+    <configuration name="AlienWordOrderTest.isAlienSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Special.DP.*" />
+          <option name="PATTERN" value="Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Special.DP" />
-      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock1Test" />
-      <option name="METHOD_NAME" value="maxProfit1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BuySellStock2Test.maxProfit2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Special.DP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Special.DP" />
-      <option name="MAIN_CLASS_NAME" value="Special.DP.BuySellStock2Test" />
-      <option name="METHOD_NAME" value="maxProfit2" />
+      <option name="PACKAGE_NAME" value="Easy" />
+      <option name="MAIN_CLASS_NAME" value="Easy.AlienWordOrderTest" />
+      <option name="METHOD_NAME" value="isAlienSorted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,13 +392,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeKSortedListsTest.mergeKLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hard" />
+      <option name="MAIN_CLASS_NAME" value="Hard.MergeKSortedListsTest" />
+      <option name="METHOD_NAME" value="mergeKLists" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeKSortedListsTest.mergeKLists" />
+        <item itemvalue="JUnit.AlienWordOrderTest.isAlienSorted" />
         <item itemvalue="JUnit.KthLargestTest.add" />
         <item itemvalue="JUnit.LRUCacheTest.get" />
         <item itemvalue="JUnit.FindMinInRotatedSortedArrayTest.findMin" />
-        <item itemvalue="JUnit.BuySellStock2Test.maxProfit2" />
-        <item itemvalue="JUnit.BuySellStock1Test.maxProfit1" />
       </list>
     </recent_temporary>
   </component>
@@ -381,45 +445,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 22h 25m 59s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 15h 30m 09s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 22h 27m 53s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 15h 31m 46s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 22h 31m 36s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 15h 35m 06s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 27m 53s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 06m 05s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 28m 45s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 08m 37s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 32m 10s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 08m 55s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 33m 06s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 09m 32s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 35m 24s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 12m 56s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 38m 53s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 13m 53s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KthLargestTest_add - 2019.04.26 at 23h 42m 37s.xml">
-      <configuration name="KthLargestTest.add" configurationId="JUnit" />
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 16m 19s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130845000" />
+    <option name="totallyTimeSpent" value="143699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.102684565" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,8 +492,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.060906515" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3569405" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16997167" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.22379604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -438,14 +502,14 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.2407932" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.31275168" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.37248322" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.13422818" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -769,15 +833,62 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java</url>
-          <line>41</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>lists</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>_lhs.iterator().next().next()</expression-string>
         <language-id>JAVA</language-id>
@@ -818,63 +929,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>matrix[i][j]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MonotonicArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MorseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MostCommonWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="39" column="1" lean-forward="true" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MountainNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MySquareRoot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MyStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/NRepeatedItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/NumberRotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1185,17 +1242,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="31" column="37" selection-start-line="25" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="173">
+          <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
         </state>
       </provider>
     </entry>

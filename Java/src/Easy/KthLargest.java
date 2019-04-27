@@ -29,13 +29,8 @@ public class KthLargest {
     public KthLargest(int k, int[] nums) {
         _k = k;
         _pq = new PriorityQueue<Integer>(_k);
-
-        for(int n : nums){
-            _pq.add(n);
-        }
-        while(_pq.size() > _k)
-            _pq.poll();
-
+        for(int n : nums) _pq.add(n);
+        while(_pq.size() > _k) _pq.poll();
     }
     public int add(int val) {
         _pq.add(val);
