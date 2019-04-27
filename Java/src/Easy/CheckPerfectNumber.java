@@ -6,7 +6,7 @@ public class CheckPerfectNumber {
       if (num == 1) return false;
         
         int sum = 0;
-        for (int i = 2; i <= Math.sqrt(num); i++) { //why compiler not complain at this line?
+        for (int i = 2; i <= Math.sqrt(num); ++i) { //why compiler not complain at this line?
             if (num % i == 0) {
                 sum += i + num / i;
             }
