@@ -11,12 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Hard/FirstMissingPositiveInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,85 +30,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="31" column="37" selection-start-line="25" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="488">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1187#1188#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Hard/FirstMissingPositiveInteger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+        <entry file="file://$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+            <state relative-caret-position="527">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,10 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Medium/GenerateParanthesis.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/ImageOverlap.java" />
-        <option value="$PROJECT_DIR$/Java/src/Hard/KnightDialer.java" />
-        <option value="$PROJECT_DIR$/Java/src/Medium/MostStonesRemovedWithTheSameRowOrColumn.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/NextPermutation.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/NumberPicker.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/OptimalGameStrategy.java" />
@@ -204,6 +158,10 @@
         <option value="$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java" />
         <option value="$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java" />
+        <option value="$PROJECT_DIR$/Java/src/Hard/FirstMissingPositiveInteger.java" />
+        <option value="$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java" />
       </list>
     </option>
   </component>
@@ -286,9 +244,9 @@
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Hard" />
+      <recent name="Medium" />
       <recent name="Easy" />
       <recent name="Special.DP" />
-      <recent name="Medium" />
       <recent name="Special.Implementation" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -327,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MergeKSortedListsTest.mergeKLists">
+  <component name="RunManager" selected="JUnit.FirstMissingPositiveIntegerTest.firstMissingPositive">
     <configuration name="AlienWordOrderTest.isAlienSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -344,17 +302,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMinInRotatedSortedArrayTest.findMin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ContainerHoldMostWaterTest.maxArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Easy.*" />
+          <option name="PATTERN" value="Medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Easy" />
-      <option name="MAIN_CLASS_NAME" value="Easy.FindMinInRotatedSortedArrayTest" />
-      <option name="METHOD_NAME" value="findMin" />
+      <option name="PACKAGE_NAME" value="Medium" />
+      <option name="MAIN_CLASS_NAME" value="Medium.ContainerHoldMostWaterTest" />
+      <option name="METHOD_NAME" value="maxArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstMissingPositiveIntegerTest.firstMissingPositive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hard" />
+      <option name="MAIN_CLASS_NAME" value="Hard.FirstMissingPositiveIntegerTest" />
+      <option name="METHOD_NAME" value="firstMissingPositive" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -371,22 +345,6 @@
       <option name="PACKAGE_NAME" value="Easy" />
       <option name="MAIN_CLASS_NAME" value="Easy.KthLargestTest" />
       <option name="METHOD_NAME" value="add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LRUCacheTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Hard" />
-      <option name="MAIN_CLASS_NAME" value="Hard.LRUCacheTest" />
-      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -410,11 +368,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstMissingPositiveIntegerTest.firstMissingPositive" />
+        <item itemvalue="JUnit.ContainerHoldMostWaterTest.maxArea" />
         <item itemvalue="JUnit.MergeKSortedListsTest.mergeKLists" />
         <item itemvalue="JUnit.AlienWordOrderTest.isAlienSorted" />
         <item itemvalue="JUnit.KthLargestTest.add" />
-        <item itemvalue="JUnit.LRUCacheTest.get" />
-        <item itemvalue="JUnit.FindMinInRotatedSortedArrayTest.findMin" />
       </list>
     </recent_temporary>
   </component>
@@ -445,24 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 15h 30m 09s.xml">
-      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 15h 31m 46s.xml">
-      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 15h 35m 06s.xml">
-      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 06m 05s.xml">
-      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 08m 37s.xml">
-      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 08m 55s.xml">
-      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 09m 32s.xml">
       <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
@@ -475,9 +415,27 @@
     <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 16h 16m 19s.xml">
       <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MergeKSortedListsTest_mergeKLists - 2019.04.27 at 23h 20m 23s.xml">
+      <configuration name="MergeKSortedListsTest.mergeKLists" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerHoldMostWaterTest_maxArea - 2019.04.27 at 23h 33m 10s.xml">
+      <configuration name="ContainerHoldMostWaterTest.maxArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerHoldMostWaterTest_maxArea - 2019.04.27 at 23h 37m 17s.xml">
+      <configuration name="ContainerHoldMostWaterTest.maxArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerHoldMostWaterTest_maxArea - 2019.04.27 at 23h 37m 54s.xml">
+      <configuration name="ContainerHoldMostWaterTest.maxArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ContainerHoldMostWaterTest_maxArea - 2019.04.27 at 23h 38m 06s.xml">
+      <configuration name="ContainerHoldMostWaterTest.maxArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FirstMissingPositiveIntegerTest_firstMissingPositive - 2019.04.28 at 00h 09m 22s.xml">
+      <configuration name="FirstMissingPositiveIntegerTest.firstMissingPositive" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143699000" />
+    <option name="totallyTimeSpent" value="148040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
@@ -492,8 +450,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.16997167" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.22379604" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24645892" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.22379604" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -862,28 +820,51 @@
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java</url>
-          <line>46</line>
+          <url>file://$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java</url>
-          <line>49</line>
+          <url>file://$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java</url>
+          <line>17</line>
           <properties />
-          <option name="timeStamp" value="88" />
+          <option name="timeStamp" value="97" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java</url>
+          <line>18</line>
           <properties />
-          <option name="timeStamp" value="89" />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>nums</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>lists</expression-string>
         <language-id>JAVA</language-id>
@@ -924,45 +905,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>dp[i-1] * dp[i] * nums[i]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/NumberRotate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/NumOfUniqueEmails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/PaintHouse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/PairwiseSumOfMin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/Palindrom2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1294,17 +1239,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java">
+    <entry file="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+        <state relative-caret-position="289">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java">
+    <entry file="file://$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="327">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="e#1187#1188#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Hard/FirstMissingPositiveInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
