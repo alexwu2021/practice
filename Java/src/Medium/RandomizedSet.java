@@ -1,9 +1,10 @@
 package Medium;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.LinkedHashSet;
 
 /**
+ * #380
+ *
  * Design a data structure that supports all following operations in average O(1) time.
  *
  * insert(val): Inserts an item val to the set if not already present.
@@ -36,42 +37,21 @@ import java.util.HashMap;
  * randomSet.getRandom();
  */
 public class RandomizedSet {
-
-    ArrayList<Integer> nums;
-    HashMap<Integer, Integer> locs;
-    java.util.Random rand = new java.util.Random();
-    /** Initialize your data structure here. */
-    public RandomizedSet() {
-        nums = new ArrayList<Integer>();
-        locs = new HashMap<Integer, Integer>();
-    }
-
-    /** Inserts a value to the set. Returns true if the set did not already contain the specified element. */
+    java.util.Random _rand = new java.util.Random();
+    LinkedHashSet<Integer> _lhs;
+    public RandomizedSet() { _lhs = new LinkedHashSet<>(); }
     public boolean insert(int val) {
-        boolean contain = locs.containsKey(val);
-        if ( contain ) return false;
-        locs.put( val, nums.size());
-        nums.add(val);
+        if(_lhs.contains(val)) return false;
+        _lhs.add(val);
         return true;
     }
-
-    /** Removes a value from the set. Returns true if the set contained the specified element. */
     public boolean remove(int val) {
-        boolean contain = locs.containsKey(val);
-        if ( ! contain ) return false;
-        int loc = locs.get(val);
-        if (loc < nums.size() - 1 ) { // not the last one than swap the last one with this val
-            int lastone = nums.get(nums.size() - 1 );
-            nums.set( loc , lastone );
-            locs.put(lastone, loc);
-        }
-        locs.remove(val);
-        nums.remove(nums.size() - 1);
+        if(!_lhs.contains(val)) return false;
+        _lhs.remove(val);
         return true;
     }
-
-    /** Get a random element from the set. */
     public int getRandom() {
-        return nums.get( rand.nextInt(nums.size()) );
+        int index = _rand.nextInt(_lhs.size());
+        return (int)(_lhs.toArray()[index]);
     }
 }
