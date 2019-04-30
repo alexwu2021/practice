@@ -80,7 +80,7 @@ public class RedundantConnection {
 
     //from stefan pochmann
     //    def findRedundantConnection(self, edges):
-    //    tree = ''.join(map(chr, range(1001)))
+    //    tree = ''.join(mp(chr, range(1001)))
     //            for u, v in edges:
     //            if tree[u] == tree[v]:
     //            return [u, v]

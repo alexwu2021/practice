@@ -59,21 +59,21 @@ public class DailyTemperature {
 //        Arrays.fill(ans, Integer.MAX_VALUE);
 //        ans[n - 1] = 0;
 //
-//        Map<Integer, Set<Integer>> map = new HashMap<>();
+//        Map<Integer, Set<Integer>> mp = new HashMap<>();
 //        for (int idx = n - 1; idx >= 0; idx--) {
-//            map.computeIfAbsent(T[idx], x -> new TreeSet<>()).add(idx);
+//            mp.computeIfAbsent(T[idx], x -> new TreeSet<>()).add(idx);
 //        }
 //
 //        int[] temp = T.clone();
 //        Arrays.sort(temp);
 //
 //        for (int i = 0; i < n; ++i) {
-//            for (int index : map.get(temp[i])) {
+//            for (int index : mp.get(temp[i])) {
 //                if(index >=  n - 1 ) continue;
 //                boolean found = false;
 //                idxloop:
 //                for (int j = index + 1; j < n; ++j) {
-//                    for (int index2 : map.get(T[j])) {
+//                    for (int index2 : mp.get(T[j])) {
 //                        if (T[index2] > T[index] && index2 > index) {
 //                            ans[index] = index2 - index;
 //                            found = true;

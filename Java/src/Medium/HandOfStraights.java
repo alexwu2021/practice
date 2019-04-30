@@ -23,7 +23,7 @@ public class HandOfStraights {
         Queue<Integer> q = new LinkedList<>();
         int lastChecked = -1, opened = 0;
 
-        // note: mp is a tree map, so we are looping from the smallest
+        // note: mp is a tree mp, so we are looping from the smallest
         for (int i : mp.keySet()) {
             if (opened > 0 && i > lastChecked + 1 || opened > mp.get(i))
                 return false;

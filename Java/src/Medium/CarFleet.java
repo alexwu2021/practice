@@ -75,7 +75,7 @@ public class CarFleet {
 
     /** This one passed.
      *
-     *  Tree map, tree map!! sorted
+     *  Tree mp, tree mp!! sorted
      *
      *  filtering by needed time to reach target!
      *
@@ -87,7 +87,7 @@ public class CarFleet {
      */
     public int carFleet(int target, int[] position, int[] speed) {
 
-        // must use tree map for we want the data extracted are in increasing order
+        // must use tree mp for we want the data extracted are in increasing order
         TreeMap<Integer, Integer> map = new TreeMap<>();
         int n = position.length;
         for (int i = 0; i < n; ++i) {

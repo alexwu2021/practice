@@ -64,19 +64,19 @@ public class BeautifulArrangement {
 //        return helper(new HashMap<String, Integer>(), currState, 1);
 //    }
 //
-//    int helper(Map<String, Integer> map, char[] currState, int index) {
+//    int helper(Map<String, Integer> mp, char[] currState, int index) {
 //        if(index == currState.length) return 1;
 //        String key = String.valueOf(currState);
-//        if(map.containsKey(key)) return map.get(key);
+//        if(mp.containsKey(key)) return mp.get(key);
 //        int count = 0;
 //        for(int i = 1; i < currState.length; i++) {
 //            if(currState[i] == 'f' && (i % index == 0 || index % i == 0)) {
 //                currState[i] = 't';
-//                count += helper(map, currState, index + 1);
+//                count += helper(mp, currState, index + 1);
 //                currState[i] = 'f';
 //            }
 //        }
-//        map.put(key, count);
+//        mp.put(key, count);
 //        return count;
 //    }
 }

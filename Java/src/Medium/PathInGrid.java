@@ -62,7 +62,7 @@ public class PathInGrid {
 
 
         // second, declare data structure needed
-        // the map stores which step is the parent of the current step
+        // the mp stores which step is the parent of the current step
         Map<int[], int[]>childToParentMap = new HashMap<>();
 
         // a cell is 2 dimension array of length 2
@@ -142,7 +142,7 @@ public class PathInGrid {
         }
 
         // second, declare data structure needed
-        // the map stores which step is the parent of the current step
+        // the mp stores which step is the parent of the current step
         Map<int[], int[]>childToParentMap = new HashMap<>();
 
         // a cell is 2 dimension array of length 2

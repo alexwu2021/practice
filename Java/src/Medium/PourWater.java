@@ -1,7 +1,7 @@
 package Medium;
 
 /**
- * We are given an elevation map, heights[i] representing the height of the terrain at that index. The width
+ * We are given an elevation mp, heights[i] representing the height of the terrain at that index. The width
  * at each index is 1. After V units of water fall at index K, how much water is at each index?
  *
  * Water first drops at index K and rests on top of the highest terrain or water at that index. Then, it flows
