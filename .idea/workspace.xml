@@ -13,23 +13,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/PowerOfThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/ThreeSumSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Hard/RandomPickWithBlacklist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Medium/RandomPickWithWeight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/NestedIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/CommonTypes/Interval.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/CommonTypes/Interval.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Easy/ImageOverlap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/ImageOverlap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Hard/BeautifulArrangement.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Hard/BeautifulArrangement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/AddBoldTags.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/AddBoldTags.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/CarFleet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/CarFleet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/DailyTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/DailyTemperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/HandOfStraights.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/HandOfStraights.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/MyHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/MyHashMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/PathInGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/PathInGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/PourWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/PourWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/RedundantConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/RedundantConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/test/Medium/AddBoldTagsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/test/Medium/AddBoldTagsTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,61 +31,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Medium/AddBoldTagsTest.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="323">
+              <caret line="21" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/AddBoldTags.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="206" selection-start-line="206" selection-end-line="206" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/ThreeSumClosest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/RandomPickWithWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/RandomPickWithBlacklist.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/NestedIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+            <state relative-caret-position="352">
+              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,49 +61,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/PowerOfThree.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#140#141#0" expanded="true" />
-                <element signature="e#182#183#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/ThreeSumSmaller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" column="87" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/TreeSet.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="203">
-              <caret line="179" column="22" selection-start-line="179" selection-start-column="11" selection-end-line="179" selection-end-column="22" />
-              <folding>
-                <element signature="e#7027#7028#0" expanded="true" />
-                <element signature="e#7080#7081#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/CommonTypes/Interval.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-              </folding>
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
             </state>
           </provider>
         </entry>
@@ -198,10 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Easy/HouseRobber.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/HouseRobber2.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/HouseRobber3.java" />
-        <option value="$PROJECT_DIR$/Java/src/Hard/ZumaGame.java" />
         <option value="$PROJECT_DIR$/Java/src/Special/DP/RegularExpressionMatching.java" />
         <option value="$PROJECT_DIR$/Java/src/Special/DP/EditDistance.java" />
         <option value="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java" />
@@ -249,6 +169,10 @@
         <option value="$PROJECT_DIR$/Java/src/Medium/ThreeSumClosest.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/RandomPickWithWeight.java" />
         <option value="$PROJECT_DIR$/Java/src/Hard/RandomPickWithBlacklist.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/FlatternNestedListIterator.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/NestedIterator.java" />
       </list>
     </option>
   </component>
@@ -269,10 +193,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1645" />
-    <option name="y" value="95" />
-    <option name="width" value="1350" />
-    <option name="height" value="727" />
+    <option name="x" value="-1929" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -302,7 +226,7 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Hard" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -372,7 +296,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddBoldTagsTest.addBoldTag">
+  <component name="RunManager" selected="JUnit.NumberOfDecodingWaysTest.numDecodings">
     <configuration name="AddBoldTagsTest.addBoldTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -421,6 +345,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumberOfDecodingWaysTest.numDecodings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Medium" />
+      <option name="MAIN_CLASS_NAME" value="Medium.NumberOfDecodingWaysTest" />
+      <option name="METHOD_NAME" value="numDecodings" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomizedSetTest.getRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -437,29 +377,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsInString2Test.reverseWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Easy" />
-      <option name="MAIN_CLASS_NAME" value="Easy.ReverseWordsInString2Test" />
-      <option name="METHOD_NAME" value="reverseWords" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NumberOfDecodingWaysTest.numDecodings" />
         <item itemvalue="JUnit.AddBoldTagsTest.addBoldTag" />
         <item itemvalue="JUnit.AddBoldTagsTest.mergeIntervals" />
         <item itemvalue="JUnit.BstFromPreOrderTest.bstFromPreorder" />
         <item itemvalue="JUnit.RandomizedSetTest.getRandom" />
-        <item itemvalue="JUnit.ReverseWordsInString2Test.reverseWords" />
       </list>
     </recent_temporary>
   </component>
@@ -490,21 +414,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 33m 33s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 45m 24s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 46m 50s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 56m 04s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 56m 13s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 59m 13s.xml">
       <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
     </history-entry>
@@ -520,15 +429,30 @@
     <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 22h 14m 34s.xml">
       <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 05m 11s.xml">
+      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 05m 39s.xml">
+      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 06m 52s.xml">
+      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 55m 24s.xml">
+      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 23h 08m 23s.xml">
+      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="181651000" />
+    <option name="totallyTimeSpent" value="187092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -537,8 +461,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1713881" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.09773371" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1713881" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.04249292" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -554,7 +478,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.111409396" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.10939597" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -1008,6 +932,12 @@
           <properties />
           <option name="timeStamp" value="123" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1061,27 +991,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/FrogJumping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-337">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/InvalidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/MaxSlidingWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Hard/OddEvenJump.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -1373,20 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/TreeSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1470,8 +1365,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Hard/RandomPickWithBlacklist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="10" lean-forward="true" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+        <state relative-caret-position="472">
+          <caret line="109" column="1" lean-forward="true" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/NestedIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
