@@ -10,13 +10,15 @@
     <bookmark url="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" line="65" />
     <bookmark url="file://$PROJECT_DIR$/Java/src/Easy/ReverseWordsInAString.java" line="75" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/AddBoldTagsTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" line="23" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Medium/NestedIterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/ReverseNodeInKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/CommonTypes/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/CommonTypes/ListNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,31 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+            <state relative-caret-position="478">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/NestedIterator.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/ReverseNodeInKGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="483">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -63,17 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            <state relative-caret-position="221">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -83,8 +64,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -105,6 +86,9 @@
       <find>&quot;</find>
       <find>elde</find>
       <find>Comparator</find>
+      <find>next</find>
+      <find>= temp.next</find>
+      <find>reverse</find>
     </findStrings>
     <replaceStrings>
       <replace>n</replace>
@@ -122,9 +106,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Special/DP/RegularExpressionMatching.java" />
-        <option value="$PROJECT_DIR$/Java/src/Special/DP/EditDistance.java" />
-        <option value="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock1Test.java" />
         <option value="$PROJECT_DIR$/Java/src/Special/DP/BuySellStock2.java" />
         <option value="$PROJECT_DIR$/Java/src/Special/DP/BuySellStock1.java" />
         <option value="$PROJECT_DIR$/Java/test/Special/DP/BuySellStock2Test.java" />
@@ -173,6 +154,9 @@
         <option value="$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/FlatternNestedListIterator.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/NestedIterator.java" />
+        <option value="$PROJECT_DIR$/Java/src/CommonTypes/ListNode.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/ReverseNodeInKGroup.java" />
       </list>
     </option>
   </component>
@@ -193,16 +177,17 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1929" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-1930" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,7 +218,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,25 +247,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\Python" />
-      <recent name="C:\Users\Alex\git\practice\Bash" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Easy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\SQL" />
+      <recent name="C:\Users\Alex\git\practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Special.DP" />
       <recent name="Easy" />
       <recent name="Medium" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\SQL" />
-      <recent name="C:\Users\Alex\git\practice" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\Python" />
+      <recent name="C:\Users\Alex\git\practice\Bash" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,7 +280,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NumberOfDecodingWaysTest.numDecodings">
+  <component name="RunManager" selected="JUnit.ReverseNodeInKGroupTest.reverseKGroup">
     <configuration name="AddBoldTagsTest.addBoldTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -361,7 +345,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedSetTest.getRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseNodeInKGroupTest.reverseKGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
@@ -370,8 +354,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.RandomizedSetTest" />
-      <option name="METHOD_NAME" value="getRandom" />
+      <option name="MAIN_CLASS_NAME" value="Medium.ReverseNodeInKGroupTest" />
+      <option name="METHOD_NAME" value="reverseKGroup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -379,11 +363,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReverseNodeInKGroupTest.reverseKGroup" />
         <item itemvalue="JUnit.NumberOfDecodingWaysTest.numDecodings" />
         <item itemvalue="JUnit.AddBoldTagsTest.addBoldTag" />
         <item itemvalue="JUnit.AddBoldTagsTest.mergeIntervals" />
         <item itemvalue="JUnit.BstFromPreOrderTest.bstFromPreorder" />
-        <item itemvalue="JUnit.RandomizedSetTest.getRandom" />
       </list>
     </recent_temporary>
   </component>
@@ -402,6 +386,7 @@
       <workItem from="1554951989398" duration="24698000" />
       <workItem from="1555310107256" duration="567000" />
       <workItem from="1555395932696" duration="7899000" />
+      <workItem from="1556773466408" duration="5263000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -414,45 +399,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 21h 59m 13s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 08m 27s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 22h 08m 17s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 13m 27s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 22h 10m 09s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 14m 43s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 22h 12m 55s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 17m 20s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddBoldTagsTest_addBoldTag - 2019.04.29 at 22h 14m 34s.xml">
-      <configuration name="AddBoldTagsTest.addBoldTag" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 19m 47s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 05m 11s.xml">
-      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 21m 31s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 05m 39s.xml">
-      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 25m 59s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 06m 52s.xml">
-      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 26m 04s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 22h 55m 24s.xml">
-      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 26m 50s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="NumberOfDecodingWaysTest_numDecodings - 2019.04.30 at 23h 08m 23s.xml">
-      <configuration name="NumberOfDecodingWaysTest.numDecodings" configurationId="JUnit" />
+    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 30m 48s.xml">
+      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187092000" />
+    <option name="totallyTimeSpent" value="192355000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27315435" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07449664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -461,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1713881" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1713881" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.04249292" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -938,11 +923,49 @@
           <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/ReverseNodeInKGroup.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>next</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newHead</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>temp</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ret</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>intervals</expression-string>
         <language-id>JAVA</language-id>
@@ -968,57 +991,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>expected.equals(actual)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>lhm.keySet().toArray()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>arr</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/OddEvenJump.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="93" column="38" selection-start-line="93" selection-start-column="38" selection-end-line="93" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/RobotCleanRoom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/SlidingWindowMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-452">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/ThreeEqualParts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Hard/TrapRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1370,41 +1345,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Medium/NumberOfDecodingWaysTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="21" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="21" />
+          <caret line="21" selection-start-line="15" selection-start-column="9" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/NumberOfDecodingWays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="340">
           <caret line="20" column="82" selection-start-line="20" selection-start-column="82" selection-end-line="20" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1921">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/NestedIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
+          <caret line="59" column="4" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/LinkedListComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/CommonTypes/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/ReverseNodeInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
