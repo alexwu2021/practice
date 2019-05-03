@@ -13,27 +13,23 @@ public class ReverseNodeInKGroup {
         if(head == null) return head;
 
         // find the first k group and isolate it from the rest
-        ListNode newHead = head, trailer = null;
+        ListNode tempHead = head, trailer = null;
         int count = 0;
         while(head != null && count < k){
             trailer = head;
             head = head.next;
             count++;
         }
-        if(head == null && count < k) return newHead;
+        if(head == null && count < k) return tempHead;
         trailer.next = null; // de-tail
 
         // do a normal reverse of list
-        newHead = reverseList(newHead);
+        ListNode ret = reverseList(tempHead);
 
-        // pay a cost to locate the splicing point
-        ListNode temp = newHead;
-        while(temp.next != null) temp = temp.next;
+        // tempHead becomes the tale to which we can append the rest
+        tempHead.next = reverseKGroup(head, k);
 
-        // splice the rest
-        temp.next = reverseKGroup(head, k);
-
-        return newHead;
+        return ret;
     }
 
 
