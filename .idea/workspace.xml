@@ -13,12 +13,13 @@
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" line="23" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Hard/MinimumWindowSubstringTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Hard/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Medium/PaintHouse2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Hard/MinimumWindowSubstringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
@@ -34,34 +35,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/ReverseNodeInKGroup.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Hard/MinimumWindowSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="44" column="5" selection-start-line="11" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
+            <state relative-caret-position="432">
+              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/LongestConsecutiveSequence.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="39" column="5" selection-start-line="16" selection-start-column="4" selection-end-line="39" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/MinimumWindowSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -88,16 +77,7 @@
         <entry file="file://$PROJECT_DIR$/Java/src/Hard/NumberToWords.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Hard/MinimumWindowSubstringTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -123,8 +103,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="204">
+              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -176,10 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Easy/FindMinInRotatedSortedArray.java" />
-        <option value="$PROJECT_DIR$/Java/src/Hard/LRUImplementation.java" />
-        <option value="$PROJECT_DIR$/Java/test/Hard/LRUCacheTest.java" />
-        <option value="$PROJECT_DIR$/Java/src/Hard/LRUCache.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/BinarySearch.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/CheckPerfectNumber.java" />
@@ -227,6 +221,10 @@
         <option value="$PROJECT_DIR$/Java/test/Hard/MinimumWindowSubstringTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/PaintHouse2.java" />
         <option value="$PROJECT_DIR$/Java/src/Hard/MinimumWindowSubstring.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/DesignLinkedList.java" />
+        <option value="$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java" />
       </list>
     </option>
   </component>
@@ -282,6 +280,13 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -308,34 +313,34 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Easy" />
       <recent name="Hard" />
       <recent name="Medium" />
-      <recent name="Easy" />
       <recent name="Special.DP" />
       <recent name="Special.Implementation" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\Python" />
-      <recent name="C:\Users\Alex\git\practice\Bash" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Easy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\SQL" />
+      <recent name="C:\Users\Alex\git\practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Special.DP" />
       <recent name="Easy" />
       <recent name="Medium" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\SQL" />
-      <recent name="C:\Users\Alex\git\practice" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\Python" />
+      <recent name="C:\Users\Alex\git\practice\Bash" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -350,23 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinimumWindowSubstringTest.minWindow">
-    <configuration name="AddBoldTagsTest.addBoldTag" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.AddBoldTagsTest" />
-      <option name="METHOD_NAME" value="addBoldTag" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MyLinkedListTest.get">
     <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -394,6 +383,22 @@
       <option name="PACKAGE_NAME" value="Hard" />
       <option name="MAIN_CLASS_NAME" value="Hard.MinimumWindowSubstringTest" />
       <option name="METHOD_NAME" value="minWindow" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyLinkedListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Easy" />
+      <option name="MAIN_CLASS_NAME" value="Easy.MyLinkedListTest" />
+      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -433,11 +438,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyLinkedListTest.get" />
         <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow" />
         <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive" />
         <item itemvalue="JUnit.ReverseNodeInKGroupTest.reverseKGroup" />
         <item itemvalue="JUnit.NumberOfDecodingWaysTest.numDecodings" />
-        <item itemvalue="JUnit.AddBoldTagsTest.addBoldTag" />
       </list>
     </recent_temporary>
   </component>
@@ -459,7 +464,7 @@
       <workItem from="1556773466408" duration="8482000" />
       <workItem from="1557203846960" duration="4156000" />
       <workItem from="1557283948440" duration="1180000" />
-      <workItem from="1558316015027" duration="3768000" />
+      <workItem from="1558316015027" duration="10734000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -472,45 +477,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 17m 20s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 29m 40s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 19m 47s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 30m 27s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 21m 31s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 31m 25s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 25m 59s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 31m 52s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 26m 04s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 32m 09s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 26m 50s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 34m 16s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ReverseNodeInKGroupTest_reverseKGroup - 2019.05.01 at 23h 30m 48s.xml">
-      <configuration name="ReverseNodeInKGroupTest.reverseKGroup" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 38m 28s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LongestConsecutiveSequenceTest_longestConsecutive - 2019.05.02 at 22h 50m 05s.xml">
-      <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 42m 15s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumWindowSubstringTest_minWindow - 2019.05.06 at 22h 37m 50s.xml">
-      <configuration name="MinimumWindowSubstringTest.minWindow" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 42m 20s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MinimumWindowSubstringTest_minWindow - 2019.05.06 at 22h 41m 29s.xml">
-      <configuration name="MinimumWindowSubstringTest.minWindow" configurationId="JUnit" />
+    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 44m 52s.xml">
+      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204678000" />
+    <option name="totallyTimeSpent" value="211644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.028820375" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -519,8 +524,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1713881" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.04249292" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20679887" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16997167" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -532,11 +537,11 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.2407932" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.31233245" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.29758713" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.13672923" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.13672923" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -1074,6 +1079,24 @@
           <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1132,31 +1155,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="171" column="23" selection-start-line="171" selection-start-column="10" selection-end-line="171" selection-end-column="23" />
-          <folding>
-            <element signature="e#6484#6485#0" expanded="true" />
-            <element signature="e#6530#6531#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Hard/LRUCacheTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/KthLargest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="31" column="37" selection-start-line="25" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1511,17 +1509,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Hard/NumberToWords.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1539,13 +1530,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Hard/MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
