@@ -14,12 +14,12 @@
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/ReverseNodeInKGroupTest.java" line="23" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Hard/MinimumWindowSubstringTest.java" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" />
+    <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java" line="21" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
@@ -50,52 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="211">
-              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/PaintHouse2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="38" column="71" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/deploy.jar!/com/sun/deploy/util/StringUtils.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/NumberToWords.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Hard/LongestConsecutiveSequenceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -104,7 +59,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -113,16 +68,64 @@
         <entry file="file://$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#2813#2821#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+            <state relative-caret-position="124">
+              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="185">
+              <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -132,8 +135,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -157,6 +160,7 @@
       <find>= temp.next</find>
       <find>reverse</find>
       <find>computeIfAbsent</find>
+      <find>.toArray</find>
     </findStrings>
     <replaceStrings>
       <replace>n</replace>
@@ -174,8 +178,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Easy/BinarySearch.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/CanPlaceFlowers.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/CheckPerfectNumber.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/LicenseKeyFormatting.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/MinMove2.java" />
@@ -225,6 +227,8 @@
         <option value="$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java" />
       </list>
     </option>
   </component>
@@ -313,9 +317,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Medium" />
       <recent name="Easy" />
       <recent name="Hard" />
-      <recent name="Medium" />
       <recent name="Special.DP" />
       <recent name="Special.Implementation" />
     </key>
@@ -355,7 +359,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MyLinkedListTest.get">
+  <component name="RunManager" selected="JUnit.LetterCombinationsTest.letterCombinations">
+    <configuration name="LetterCombinationsTest.letterCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Medium" />
+      <option name="MAIN_CLASS_NAME" value="Medium.LetterCombinationsTest" />
+      <option name="METHOD_NAME" value="letterCombinations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -404,22 +424,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfDecodingWaysTest.numDecodings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Medium.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Medium" />
-      <option name="MAIN_CLASS_NAME" value="Medium.NumberOfDecodingWaysTest" />
-      <option name="METHOD_NAME" value="numDecodings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReverseNodeInKGroupTest.reverseKGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -438,11 +442,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LetterCombinationsTest.letterCombinations" />
         <item itemvalue="JUnit.MyLinkedListTest.get" />
         <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow" />
         <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive" />
         <item itemvalue="JUnit.ReverseNodeInKGroupTest.reverseKGroup" />
-        <item itemvalue="JUnit.NumberOfDecodingWaysTest.numDecodings" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +468,7 @@
       <workItem from="1556773466408" duration="8482000" />
       <workItem from="1557203846960" duration="4156000" />
       <workItem from="1557283948440" duration="1180000" />
-      <workItem from="1558316015027" duration="10734000" />
+      <workItem from="1558316015027" duration="17335000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -477,45 +481,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 29m 40s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 06m 09s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 30m 27s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 07m 51s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 31m 25s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 08m 26s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 31m 52s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 11m 40s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 32m 09s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 13m 17s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 34m 16s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 14m 51s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 38m 28s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 16m 11s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 42m 15s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 17m 45s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 42m 20s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 18m 25s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MyLinkedListTest_get - 2019.05.21 at 22h 44m 52s.xml">
-      <configuration name="MyLinkedListTest.get" configurationId="JUnit" />
+    <history-entry file="LetterCombinationsTest_letterCombinations - 2019.05.22 at 23h 31m 28s.xml">
+      <configuration name="LetterCombinationsTest.letterCombinations" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211644000" />
+    <option name="totallyTimeSpent" value="218245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -524,8 +528,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20679887" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16997167" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2733711" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.10906515" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1097,11 +1101,87 @@
           <properties />
           <option name="timeStamp" value="156" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>digits.charAt(index)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>digits.charAt(index) - 'a'</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>mp</expression-string>
         <language-id>JAVA</language-id>
@@ -1142,50 +1222,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>var2</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new Interval(index, index + str.length())</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="26" column="2" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="2866" column="18" selection-start-line="2866" selection-start-column="18" selection-end-line="2866" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1339,13 +1378,6 @@
             <element signature="e#7027#7028#0" expanded="true" />
             <element signature="e#7080#7081#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -1533,14 +1565,14 @@
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
-          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1557,14 +1589,52 @@
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="82" column="25" lean-forward="true" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
+          <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        <state relative-caret-position="765">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#2813#2821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
