@@ -25,63 +25,42 @@ import java.util.*;
  * Memory Usage: 35.2 MB
  */
 public class LetterCombinations {
-    private Map<Integer, List<Character>> _mp;
-    private List<String> _retList;
-
     public List<String> letterCombinations(String digits) {
-        this._retList = new LinkedList<>();
-        if(digits == null || digits.length() <= 0) return this._retList;
-        digits = digits.trim();
-        for(Character ch: digits.toCharArray()) if(ch > '9' || ch < '2') return this._retList;
-
-        _mp = new HashMap<>();
-        _mp.put(2, Arrays.asList(new Character[]{'a', 'b', 'c'}));
-        _mp.put(3, Arrays.asList(new Character[]{'d', 'e', 'f'}));
-        _mp.put(4, Arrays.asList(new Character[]{'g', 'h', 'i'}));
-        _mp.put(5, Arrays.asList(new Character[]{'j', 'k', 'l'}));
-        _mp.put(6, Arrays.asList(new Character[]{'m', 'n', 'o'}));
-        _mp.put(7, Arrays.asList(new Character[]{'p', 'q', 'r', 's'}));
-        _mp.put(8, Arrays.asList(new Character[]{'t', 'u', 'v'}));
-        _mp.put(9, Arrays.asList(new Character[]{'w', 'x', 'y', 'z'}));
-
         List<String> ret = new ArrayList<>();
-        dfs(digits, 0, ret);
-        return this._retList;
+
+        if(digits == null || digits.length() <= 0) return ret;
+
+        digits = digits.trim();
+        for(Character ch: digits.toCharArray()) if(ch > '9' || ch < '2') return ret;
+
+        Map<Integer, List<Character>> mp = new HashMap<>();
+        mp.put(2, Arrays.asList(new Character[]{'a', 'b', 'c'}));
+        mp.put(3, Arrays.asList(new Character[]{'d', 'e', 'f'}));
+        mp.put(4, Arrays.asList(new Character[]{'g', 'h', 'i'}));
+        mp.put(5, Arrays.asList(new Character[]{'j', 'k', 'l'}));
+        mp.put(6, Arrays.asList(new Character[]{'m', 'n', 'o'}));
+        mp.put(7, Arrays.asList(new Character[]{'p', 'q', 'r', 's'}));
+        mp.put(8, Arrays.asList(new Character[]{'t', 'u', 'v'}));
+        mp.put(9, Arrays.asList(new Character[]{'w', 'x', 'y', 'z'}));
+
+        dfs(digits, 0, ret, "", mp);
+        return ret;
     }
 
 
-    void dfs(String digits, int index, List<String> lst) {
-       if(index == digits.length() - 1){
-           if(lst.isEmpty()){
-               for(Character ch : _mp.get(digits.charAt(index) - '0')){
-                   this._retList.add("" + ch);
-               }
-               return;
-           }
-           for(String s: lst){
-               for(Character ch : _mp.get(digits.charAt(index) - '0')){
-                   this._retList.add(s + ch);
-               }
-           }
-           return;
-       }
+    void dfs(String digits, int index, List<String>ret, String prefix, Map<Integer, List<Character>> mp) {
+        if (index == digits.length() - 1) {
+            for (Character ch : mp.get(digits.charAt(index) - '0'))
+                ret.add(prefix + ch);
+            return;
+        }
 
-       List<Character> listOfChars = _mp.get(digits.charAt(index) - '0');
-       for(Character ch : listOfChars){
-           List<String> tempList = new ArrayList<>();
-           if(lst.isEmpty()){
-               tempList.add("" + ch);
-           }else{
-               for(String str: lst){
-                   tempList.add(str + ch);
-               }
-           }
-           dfs(digits, index + 1, tempList);
-       }
+        List<Character> listOfChars = mp.get(digits.charAt(index) - '0');
+        for (Character ch : listOfChars) {
+            dfs(digits, index + 1, ret, prefix + ch, mp);
+        }
     }
 }
-
-
 
 class Solution_lei31 {
     private static final String[] KEYS = { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
