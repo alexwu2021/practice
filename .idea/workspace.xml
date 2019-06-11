@@ -18,8 +18,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Medium/CapacityToShipPackagesWithinDDays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Medium/CapacityToShipPackagesWithinDDaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/CommonUtils/TwoDimensionObjectCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
@@ -34,98 +35,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Hard/MinimumWindowSubstring.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+            <state relative-caret-position="399">
+              <caret line="71" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19147">
+              <caret line="2815" column="26" selection-start-line="2815" selection-start-column="26" selection-end-line="2815" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="155" selection-start-line="155" selection-end-line="155" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/MyLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="82" column="25" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/SumOfRootToLeafBinaryNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="33" column="46" selection-start-line="27" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
-              <folding>
-                <element signature="e#2813#2821#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/CapacityToShipPackagesWithinDDays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="67" column="61" lean-forward="true" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Medium/CapacityToShipPackagesWithinDDaysTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -135,8 +88,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -161,6 +114,8 @@
       <find>reverse</find>
       <find>computeIfAbsent</find>
       <find>.toArray</find>
+      <find>int[][] dir</find>
+      <find>isequalcollection</find>
     </findStrings>
     <replaceStrings>
       <replace>n</replace>
@@ -178,9 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/src/Easy/MinMove2.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/MostCommonWords.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/KthLargestElementInAStream.java" />
         <option value="$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" />
         <option value="$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java" />
@@ -229,6 +181,9 @@
         <option value="$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java" />
         <option value="$PROJECT_DIR$/Java/test/Medium/CapacityToShipPackagesWithinDDaysTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/CapacityToShipPackagesWithinDDays.java" />
+        <option value="$PROJECT_DIR$/Java/src/CommonUtils/TwoDimensionObjectCompare.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" />
+        <option value="$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java" />
       </list>
     </option>
   </component>
@@ -252,15 +207,13 @@
     <option name="x" value="-1930" />
     <option name="y" value="-10" />
     <option name="width" value="1939" />
-    <option name="height" value="1099" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,17 +232,12 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Medium" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,8 +258,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Medium" />
       <recent name="Easy" />
+      <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Special.DP" />
       <recent name="Special.Implementation" />
@@ -319,25 +267,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\Python" />
+      <recent name="C:\Users\Alex\git\practice\Bash" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Easy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\SQL" />
-      <recent name="C:\Users\Alex\git\practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Special.DP" />
       <recent name="Easy" />
       <recent name="Medium" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\Python" />
-      <recent name="C:\Users\Alex\git\practice\Bash" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\SQL" />
+      <recent name="C:\Users\Alex\git\practice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -352,7 +300,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CapacityToShipPackagesWithinDDaysTest.shipWithinDays">
+  <component name="RunManager" selected="JUnit.MatrixCellsInDistanceOrderTest.allCellsDistOrder">
     <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -385,17 +333,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestConsecutiveSequenceTest.longestConsecutive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hard.*" />
+          <option name="PATTERN" value="Easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Hard" />
-      <option name="MAIN_CLASS_NAME" value="Hard.LongestConsecutiveSequenceTest" />
-      <option name="METHOD_NAME" value="longestConsecutive" />
+      <option name="PACKAGE_NAME" value="Easy" />
+      <option name="MAIN_CLASS_NAME" value="Easy.MatrixCellsInDistanceOrderTest" />
+      <option name="METHOD_NAME" value="allCellsDistOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -435,11 +383,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatrixCellsInDistanceOrderTest.allCellsDistOrder" />
         <item itemvalue="JUnit.CapacityToShipPackagesWithinDDaysTest.shipWithinDays" />
         <item itemvalue="JUnit.LetterCombinationsTest.letterCombinations" />
         <item itemvalue="JUnit.MyLinkedListTest.get" />
         <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow" />
-        <item itemvalue="JUnit.LongestConsecutiveSequenceTest.longestConsecutive" />
       </list>
     </recent_temporary>
   </component>
@@ -461,7 +409,10 @@
       <workItem from="1556773466408" duration="8482000" />
       <workItem from="1557203846960" duration="4156000" />
       <workItem from="1557283948440" duration="1180000" />
-      <workItem from="1558316015027" duration="22092000" />
+      <workItem from="1558316015027" duration="23539000" />
+      <workItem from="1558766315516" duration="304000" />
+      <workItem from="1558900502743" duration="3458000" />
+      <workItem from="1560230095247" duration="5791000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -474,45 +425,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 22h 46m 33s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 11m 22s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 22h 51m 08s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 19m 40s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 22h 53m 10s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 21m 55s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 22h 57m 53s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 22m 07s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 22h 57m 58s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 30m 55s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 23h 05m 43s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 31m 54s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 23h 05m 48s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 32m 26s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 23h 06m 49s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 39m 18s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 23h 16m 40s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 47m 29s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CapacityToShipPackagesWithinDDaysTest_shipWithinDays - 2019.05.23 at 23h 17m 01s.xml">
-      <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" configurationId="JUnit" />
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 51m 24s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223002000" />
+    <option name="totallyTimeSpent" value="234002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18364611" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07104558" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,7 +472,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15439093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14305949" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21246459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -542,37 +493,6 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17449665" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16572239" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.20113315" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.31275168" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.19664429" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1184,117 +1104,71 @@
           <properties />
           <option name="timeStamp" value="181" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>digits.charAt(index)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>digits.charAt(index) - 'a'</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mp</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>next</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>newHead</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>temp</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>ret</expression-string>
+        <expression-string>new int[]{element[0] + d[0], element[1] + d[1]}</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>intervals</expression-string>
+        <expression-string>TwoDimensionObjectCompare.equals(actual, expected)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>st</expression-string>
+        <expression-string>expected.contains(new int[]{0, 0})</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>e</expression-string>
+        <expression-string>expected.contains(new int{0, 0})</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>actual</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>actual.containsAll(expected)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>expected.contains(ia)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Objects.equals(actual, expected)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="e#1187#1188#0" expanded="true" />
-            <element signature="e#1264#1265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Hard/FirstMissingPositiveIntegerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/FirstMissingPositiveInteger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="87" column="11" selection-start-line="87" selection-start-column="11" selection-end-line="87" selection-end-column="11" />
-          <folding>
-            <element signature="e#2871#2872#0" expanded="true" />
-            <element signature="e#2896#2897#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/ReverseWordsInAStringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Easy/ReverseWordsInString2Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1468,13 +1342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1921">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/NestedIterator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1565,13 +1432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -1603,55 +1463,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/LetterCombinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
+        <state relative-caret-position="561">
           <caret line="33" column="46" selection-start-line="27" selection-start-column="3" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="e#2813#2821#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/CapacityToShipPackagesWithinDDaysTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/CapacityToShipPackagesWithinDDays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="67" column="61" lean-forward="true" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+        <state relative-caret-position="1139">
+          <caret line="67" column="61" selection-start-line="67" selection-start-column="61" selection-end-line="67" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/RobotSim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/CapacityToShipPackagesWithinDDaysTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4573">
+          <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="283" column="12" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/CommonUtils/TwoDimensionObjectCompare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19147">
+          <caret line="2815" column="26" selection-start-line="2815" selection-start-column="26" selection-end-line="2815" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="71" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="71" />
         </state>
       </provider>
     </entry>
