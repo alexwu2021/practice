@@ -44,6 +44,15 @@ public class MatrixCellsInDistanceOrder {
 
     private static final int[][] DIR = {{0,1},{1,0},{0,-1},{-1,0}};
 
+    /**
+     *  Runtime: 12 ms, faster than 69.29% of Java online submissions for Matrix Cells in Distance Order.
+     * Memory Usage: 40.6 MB, less than 30.40% of Java online submissions for Matrix Cells in Distance Order.
+     * @param R
+     * @param C
+     * @param r0
+     * @param c0
+     * @return
+     */
     public int[][] allCellsDistOrder(int R, int C, int r0, int c0) {
 
         boolean[][] visited = new boolean[R][C];

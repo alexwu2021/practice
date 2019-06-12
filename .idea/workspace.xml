@@ -18,10 +18,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/CommonUtils/TwoDimensionObjectCompare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/HIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Medium/HIndexTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,50 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/HIndexTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/HIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="71" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19147">
-              <caret line="2815" column="26" selection-start-line="2815" selection-start-column="26" selection-end-line="2815" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="155" selection-start-line="155" selection-end-line="155" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="358">
+              <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -88,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -116,6 +86,7 @@
       <find>.toArray</find>
       <find>int[][] dir</find>
       <find>isequalcollection</find>
+      <find>hindex</find>
     </findStrings>
     <replaceStrings>
       <replace>n</replace>
@@ -133,8 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/test/Easy/KthLargestTest.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/KthLargest.java" />
         <option value="$PROJECT_DIR$/Java/test/Easy/AlienWordOrderTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/AlienWordOrder.java" />
         <option value="$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java" />
@@ -182,8 +151,10 @@
         <option value="$PROJECT_DIR$/Java/test/Medium/CapacityToShipPackagesWithinDDaysTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/CapacityToShipPackagesWithinDDays.java" />
         <option value="$PROJECT_DIR$/Java/src/CommonUtils/TwoDimensionObjectCompare.java" />
-        <option value="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" />
         <option value="$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/HIndexTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/HIndex.java" />
       </list>
     </option>
   </component>
@@ -232,6 +203,13 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -258,8 +236,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Easy" />
       <recent name="Medium" />
+      <recent name="Easy" />
       <recent name="Hard" />
       <recent name="Special.DP" />
       <recent name="Special.Implementation" />
@@ -267,25 +245,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\Python" />
-      <recent name="C:\Users\Alex\git\practice\Bash" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Easy" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\SQL" />
+      <recent name="C:\Users\Alex\git\practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Special.DP" />
       <recent name="Easy" />
       <recent name="Medium" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\SQL" />
-      <recent name="C:\Users\Alex\git\practice" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\Python" />
+      <recent name="C:\Users\Alex\git\practice\Bash" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -300,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MatrixCellsInDistanceOrderTest.allCellsDistOrder">
+  <component name="RunManager" selected="JUnit.HIndexTest.hIndex">
     <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -312,6 +290,22 @@
       <option name="PACKAGE_NAME" value="Medium" />
       <option name="MAIN_CLASS_NAME" value="Medium.CapacityToShipPackagesWithinDDaysTest" />
       <option name="METHOD_NAME" value="shipWithinDays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HIndexTest.hIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Medium" />
+      <option name="MAIN_CLASS_NAME" value="Medium.HIndexTest" />
+      <option name="METHOD_NAME" value="hIndex" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -349,22 +343,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstringTest.minWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Hard" />
-      <option name="MAIN_CLASS_NAME" value="Hard.MinimumWindowSubstringTest" />
-      <option name="METHOD_NAME" value="minWindow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyLinkedListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -383,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HIndexTest.hIndex" />
         <item itemvalue="JUnit.MatrixCellsInDistanceOrderTest.allCellsDistOrder" />
         <item itemvalue="JUnit.CapacityToShipPackagesWithinDDaysTest.shipWithinDays" />
         <item itemvalue="JUnit.LetterCombinationsTest.letterCombinations" />
         <item itemvalue="JUnit.MyLinkedListTest.get" />
-        <item itemvalue="JUnit.MinimumWindowSubstringTest.minWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +390,7 @@
       <workItem from="1558316015027" duration="23539000" />
       <workItem from="1558766315516" duration="304000" />
       <workItem from="1558900502743" duration="3458000" />
-      <workItem from="1560230095247" duration="5791000" />
+      <workItem from="1560230095247" duration="8867000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -425,21 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 11m 22s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 19m 40s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 21m 55s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 22m 07s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 30m 55s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 31m 54s.xml">
       <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
@@ -455,15 +418,30 @@
     <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 51m 24s.xml">
       <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 51m 47s.xml">
+      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HIndexTest_hIndex - 2019.06.11 at 21h 43m 16s.xml">
+      <configuration name="HIndexTest.hIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HIndexTest_hIndex - 2019.06.11 at 21h 46m 24s.xml">
+      <configuration name="HIndexTest.hIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HIndexTest_hIndex - 2019.06.11 at 21h 48m 23s.xml">
+      <configuration name="HIndexTest.hIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HIndexTest_hIndex - 2019.06.11 at 21h 48m 41s.xml">
+      <configuration name="HIndexTest.hIndex" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234002000" />
+    <option name="totallyTimeSpent" value="237078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1927" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07104558" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08646113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -472,7 +450,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14305949" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1529745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21246459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1116,11 +1094,40 @@
           <properties />
           <option name="timeStamp" value="194" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/HIndexTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/HIndexTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/HIndex.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="197" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/HIndex.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>citations[j]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>temp</expression-string>
         <language-id>JAVA</language-id>
@@ -1161,31 +1168,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>Objects.equals(actual, expected)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/ReverseWordsInString2Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/ReverseWordsInAString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="64" column="43" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/ReverseWordsInString2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -1554,20 +1539,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="71" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/MatrixCellsInDistanceOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="57" column="29" lean-forward="true" selection-start-line="57" selection-start-column="29" selection-end-line="57" selection-end-column="29" />
+        <state relative-caret-position="200">
+          <caret line="63" column="35" lean-forward="true" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Easy/MatrixCellsInDistanceOrderTest.java">
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/HIndexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="71" lean-forward="true" selection-start-line="62" selection-start-column="7" selection-end-line="71" />
+        <state relative-caret-position="119">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/HIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="58" column="56" selection-start-line="58" selection-start-column="56" selection-end-line="58" selection-end-column="56" />
         </state>
       </provider>
     </entry>
