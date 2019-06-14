@@ -15,10 +15,12 @@
     <bookmark url="file://$PROJECT_DIR$/Java/test/Hard/MinimumWindowSubstringTest.java" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Easy/MyLinkedListTest.java" />
     <bookmark url="file://$PROJECT_DIR$/Java/test/Medium/LetterCombinationsTest.java" line="21" />
+    <bookmark url="file://$PROJECT_DIR$/Java/src/Medium/LabelPartition.java" line="14" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/LemonadeChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Medium/LabelPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
@@ -33,29 +35,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/test/Medium/HIndexTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Java/src/Medium/HIndex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Java/src/Easy/LemonadeChange.java">
+        <entry file="file://$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+            <state relative-caret-position="323">
+              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Medium/LabelPartition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="38" selection-start-line="29" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -65,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -89,11 +82,12 @@
       <find>next</find>
       <find>= temp.next</find>
       <find>reverse</find>
-      <find>computeIfAbsent</find>
       <find>.toArray</find>
       <find>int[][] dir</find>
       <find>isequalcollection</find>
       <find>hindex</find>
+      <find>.toArray(</find>
+      <find>computeIfAbsent</find>
     </findStrings>
     <replaceStrings>
       <replace>n</replace>
@@ -111,8 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/test/Hard/MergeKSortedListsTest.java" />
-        <option value="$PROJECT_DIR$/Java/src/Hard/MergeKSortedLists.java" />
         <option value="$PROJECT_DIR$/Java/test/Medium/ContainerHoldMostWaterTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Medium/ContainerHoldMostWater.java" />
         <option value="$PROJECT_DIR$/Java/src/Hard/FirstMissingPositiveInteger.java" />
@@ -162,6 +154,8 @@
         <option value="$PROJECT_DIR$/Java/src/Medium/HIndex.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/OrangeChange.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/LemonadeChange.java" />
+        <option value="$PROJECT_DIR$/Java/src/Medium/LabelPartition.java" />
+        <option value="$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java" />
       </list>
     </option>
   </component>
@@ -181,18 +175,17 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1378" />
-    <option name="height" value="723" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="1" />
+    <option name="width" value="1379" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -217,19 +210,26 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="Medium" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="Medium" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -259,25 +259,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\Python" />
+      <recent name="C:\Users\Alex\git\practice\Bash" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
+      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Medium" />
       <recent name="Hard" />
       <recent name="Easy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\SQL" />
-      <recent name="C:\Users\Alex\git\practice" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Special.DP" />
       <recent name="Easy" />
       <recent name="Medium" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alex\git\practice\Python" />
-      <recent name="C:\Users\Alex\git\practice\Bash" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Medium" />
-      <recent name="C:\Users\Alex\git\practice\Java\test\Unclassified" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\git\practice\SQL" />
+      <recent name="C:\Users\Alex\git\practice" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,7 +292,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HIndexTest.hIndex">
+  <component name="RunManager" selected="JUnit.LabelPartitionTest.partitionLabels">
     <configuration name="CapacityToShipPackagesWithinDDaysTest.shipWithinDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -320,6 +320,22 @@
       <option name="PACKAGE_NAME" value="Medium" />
       <option name="MAIN_CLASS_NAME" value="Medium.HIndexTest" />
       <option name="METHOD_NAME" value="hIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabelPartitionTest.partitionLabels" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Medium" />
+      <option name="MAIN_CLASS_NAME" value="Medium.LabelPartitionTest" />
+      <option name="METHOD_NAME" value="partitionLabels" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,29 +373,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Easy" />
-      <option name="MAIN_CLASS_NAME" value="Easy.MyLinkedListTest" />
-      <option name="METHOD_NAME" value="get" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LabelPartitionTest.partitionLabels" />
         <item itemvalue="JUnit.HIndexTest.hIndex" />
         <item itemvalue="JUnit.MatrixCellsInDistanceOrderTest.allCellsDistOrder" />
         <item itemvalue="JUnit.CapacityToShipPackagesWithinDDaysTest.shipWithinDays" />
         <item itemvalue="JUnit.LetterCombinationsTest.letterCombinations" />
-        <item itemvalue="JUnit.MyLinkedListTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -407,6 +407,7 @@
       <workItem from="1560230095247" duration="8867000" />
       <workItem from="1560408281016" duration="425000" />
       <workItem from="1560408857589" duration="523000" />
+      <workItem from="1560490828836" duration="3772000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -419,15 +420,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 31m 54s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 32m 26s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 39m 18s.xml">
-      <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MatrixCellsInDistanceOrderTest_allCellsDistOrder - 2019.06.10 at 23h 47m 29s.xml">
       <configuration name="MatrixCellsInDistanceOrderTest.allCellsDistOrder" configurationId="JUnit" />
     </history-entry>
@@ -449,15 +441,24 @@
     <history-entry file="HIndexTest_hIndex - 2019.06.11 at 21h 48m 41s.xml">
       <configuration name="HIndexTest.hIndex" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LabelPartitionTest_partitionLabels - 2019.06.13 at 23h 55m 23s.xml">
+      <configuration name="LabelPartitionTest.partitionLabels" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LabelPartitionTest_partitionLabels - 2019.06.13 at 23h 56m 38s.xml">
+      <configuration name="LabelPartitionTest.partitionLabels" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LabelPartitionTest_partitionLabels - 2019.06.13 at 23h 58m 28s.xml">
+      <configuration name="LabelPartitionTest.partitionLabels" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238026000" />
+    <option name="totallyTimeSpent" value="241798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="2" width="1378" height="723" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1259484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2546917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,8 +467,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15280136" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.21246459" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15155807" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.21246459" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -483,7 +484,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.19347496" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.02010724" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -1134,6 +1135,30 @@
           <properties />
           <option name="timeStamp" value="198" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LabelPartition.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/Medium/LabelPartition.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1187,36 +1212,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/src/Hard/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#823#824#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/RandomizedSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#370#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Medium/RandomizedSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Medium/BstFromPreOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1388,13 +1383,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1574,15 +1562,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/HIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
+        <state relative-caret-position="986">
           <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Easy/LemonadeChange.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="52" column="34" lean-forward="true" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        <state relative-caret-position="367">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/RandomizedSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/FindAnagramMappings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Medium/LabelPartition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="38" selection-start-line="29" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
         </state>
       </provider>
     </entry>
