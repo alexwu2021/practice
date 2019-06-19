@@ -19,12 +19,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fe295af-bfd9-493f-8ed8-c02a24ad2b44" name="Default Changelist" comment="more works">
-      <change afterPath="$PROJECT_DIR$/Java/src/CommonUtils/ConvertIntegerListToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Medium/GrayCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Medium/GrayCodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Hard/WordLadder2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Medium/LabelPartition.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Medium/LabelPartition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/test/Medium/LabelPartitionTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/Java/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,13 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/test/Medium/GrayCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+            <state relative-caret-position="85">
+              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
               <folding>
                 <element signature="e#923#932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/src/Hard/WordLadder2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="86" column="5" lean-forward="true" selection-start-line="5" selection-end-line="86" selection-end-column="5" />
+              <folding>
+                <element signature="method#findLadders#0;class#WordLadder2#0" />
+                <element signature="e#1781#1789#0" expanded="true" />
+                <element signature="method#dfs#0;class#WordLadder2#0" />
+                <element signature="method#gettheNeibours#0;class#WordLadder2#0" />
+                <element signature="e#2593#2601#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/test/Medium/GrayCodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="289">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -102,7 +114,7 @@
         <entry file="file://$PROJECT_DIR$/Java/test/Medium/OptimalGameStrategyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="64" />
+              <caret line="26" column="64" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -160,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Java/test/Easy/ReverseWordsInAStringTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/ReverseWordsInAString.java" />
         <option value="$PROJECT_DIR$/Java/test/Easy/ReverseWordsInString2Test.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/ReverseWordsInString2.java" />
@@ -211,6 +222,7 @@
         <option value="$PROJECT_DIR$/Java/src/CommonUtils/ConvertIntegerListToArray.java" />
         <option value="$PROJECT_DIR$/Java/src/CommonUtils/ConvertIntegerListToString.java" />
         <option value="$PROJECT_DIR$/Java/test/Medium/GrayCode.java" />
+        <option value="$PROJECT_DIR$/Java/src/Hard/WordLadder2.java" />
       </list>
     </option>
   </component>
@@ -266,6 +278,13 @@
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="CommonUtils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="Java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -469,7 +488,7 @@
       <workItem from="1560230095247" duration="8867000" />
       <workItem from="1560408281016" duration="425000" />
       <workItem from="1560408857589" duration="523000" />
-      <workItem from="1560490828836" duration="11648000" />
+      <workItem from="1560490828836" duration="13909000" />
     </task>
     <task id="LOCAL-00001" summary="more works">
       <created>1554960786210</created>
@@ -514,7 +533,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249674000" />
+    <option name="totallyTimeSpent" value="251935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1913" y="-7" width="1550" height="838" extended-state="6" />
@@ -546,7 +565,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.072386056" />
+      <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.18565683" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
@@ -1245,6 +1264,14 @@
           <properties />
           <option name="timeStamp" value="209" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Java/src/Hard/WordLadder2.java</url>
+          <line>6</line>
+          <properties class="Hard.WordLadder2" method="findLadders">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -1298,13 +1325,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/AddBoldTagsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Java/src/Medium/AddBoldTags.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -1645,7 +1665,7 @@
     <entry file="file://$PROJECT_DIR$/Java/test/Medium/OptimalGameStrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="26" column="64" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="64" />
+          <caret line="26" column="64" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1653,13 +1673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3005">
           <caret line="2449" column="25" selection-start-line="2449" selection-start-column="25" selection-end-line="2449" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Java/test/Medium/GrayCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="2" lean-forward="true" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -1675,10 +1688,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Java/test/Medium/GrayCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="33" column="67" lean-forward="true" selection-start-line="33" selection-start-column="67" selection-end-line="33" selection-end-column="67" />
+        <state relative-caret-position="85">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
           <folding>
             <element signature="e#923#932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Medium/GrayCodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Hard/WordLadder2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="86" column="5" lean-forward="true" selection-start-line="5" selection-end-line="86" selection-end-column="5" />
+          <folding>
+            <element signature="method#findLadders#0;class#WordLadder2#0" />
+            <element signature="e#1781#1789#0" expanded="true" />
+            <element signature="method#dfs#0;class#WordLadder2#0" />
+            <element signature="method#gettheNeibours#0;class#WordLadder2#0" />
+            <element signature="e#2593#2601#0" expanded="true" />
           </folding>
         </state>
       </provider>
