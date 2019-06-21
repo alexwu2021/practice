@@ -27,10 +27,12 @@ public class FirstMissingPositiveInteger {
 
     /**
      * Borrowed from mor3
-     * Numbers greater then n can be ignored because the missing integer must be in the range 1..n+1
+     * Numbers greater than n can be ignored because the missing integer must be in the range 1..n+1
      *
-     * If each cell in the array were to contain positive integers only, we can use the negative of the stored number
-     * as a flag to mark something (in this case the flag indicates this index was found in some cell of the array)
+     * If each cell in the array were to contain positive integers only, we can use the negative of
+     * the stored number as a flag to mark something (in this case the flag indicates this index was
+     * found in some cell of the array)
+     *
      * @param nums
      * @return
      */
@@ -39,7 +41,7 @@ public class FirstMissingPositiveInteger {
 
         // 1. mark numbers (num < 0) and (num > n) with a special marker number (n+1)
         // (we can ignore those because if all number are > n then we'll simply return 1)
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
             if (nums[i] <= 0 || nums[i] > n) {
                 nums[i] = n + 1;
             }
@@ -47,7 +49,7 @@ public class FirstMissingPositiveInteger {
         // note: all number in the array are now positive, and on the range 1..n+1
 
         // 2. mark each cell appearing in the array, by converting the index for that number to negative
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
             int num = Math.abs(nums[i]);
             if (num > n) {
                 continue;
@@ -59,7 +61,7 @@ public class FirstMissingPositiveInteger {
         }
 
         // 3. find the first cell which isn't negative (doesn't appear in the array)
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
             if (nums[i] >= 0) {
                 return i + 1;
             }

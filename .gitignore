@@ -29,5 +29,6 @@ workspace.xml
 */.idea/*
 .idea/workspace.xml
 */workspace.xml
-
+.idea/
+/workspace.xml
 
