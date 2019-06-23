@@ -24,6 +24,16 @@ public class LabelPartition {
         }
         return dfs(S, 0, mp);
     }
+
+
+    /**
+     * continuously relaxing the right end
+     *
+     * @param S
+     * @param start
+     * @param mp
+     * @return
+     */
     List<Integer> dfs(String S, int start, Map<Character, List<Integer>> mp) {
         List<Integer> res = new ArrayList<>();
         if(start >= S.length())
