@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/Java/src/Hard/RemoveDupLettersInString.java" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="92be8a9d-32e5-4be8-8403-2a8b0904623c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/Easy/RangeSumBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Easy/RemoveAdjDups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Hard/RemoveDupLettersInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Hard/RemoveDupLettersInStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +20,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Java/src/Easy/RangeSumBST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
               <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/src/Easy/RemoveAdjDups.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Java/src/Hard/RemoveDupLettersInString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Java/test/Hard/RemoveDupLettersInStringTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -33,6 +69,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>reverse</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -42,6 +83,9 @@
         <option value="$PROJECT_DIR$/Java/test/Easy/TwoListsTest.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/TwoLists.java" />
         <option value="$PROJECT_DIR$/Java/src/Easy/RangeSumBST.java" />
+        <option value="$PROJECT_DIR$/Java/src/Easy/RemoveAdjDups.java" />
+        <option value="$PROJECT_DIR$/Java/test/Hard/RemoveDupLettersInStringTest.java" />
+        <option value="$PROJECT_DIR$/Java/src/Hard/RemoveDupLettersInString.java" />
       </list>
     </option>
   </component>
@@ -61,11 +105,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1483" />
-    <option name="y" value="334" />
-    <option name="width" value="1620" />
-    <option name="height" value="870" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -96,7 +140,7 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="Java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Easy" type="462c0819:PsiDirectoryNode" />
+              <item name="Hard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -135,6 +179,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Hard" />
       <recent name="Easy" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -153,7 +198,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RemoveDupLettersInStringTest.removeDuplicateLetters">
+    <configuration name="RemoveDupLettersInStringTest.removeDuplicateLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Hard" />
+      <option name="MAIN_CLASS_NAME" value="Hard.RemoveDupLettersInStringTest" />
+      <option name="METHOD_NAME" value="removeDuplicateLetters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TwoListsTest.findNodesWithZeroAndOneParents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java" />
       <extension name="coverage">
@@ -172,6 +233,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RemoveDupLettersInStringTest.removeDuplicateLetters" />
         <item itemvalue="JUnit.TwoListsTest.findNodesWithZeroAndOneParents" />
       </list>
     </recent_temporary>
@@ -183,9 +245,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TwoListsTest_findNodesWithZeroAndOneParents - 2019.06.24 at 12h 13m 32s.xml">
-      <configuration name="TwoListsTest.findNodesWithZeroAndOneParents" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TwoListsTest_findNodesWithZeroAndOneParents - 2019.06.24 at 12h 14m 22s.xml">
       <configuration name="TwoListsTest.findNodesWithZeroAndOneParents" configurationId="JUnit" />
     </history-entry>
@@ -210,15 +269,21 @@
     <history-entry file="TwoListsTest_findNodesWithZeroAndOneParents - 2019.06.24 at 13h 31m 11s.xml">
       <configuration name="TwoListsTest.findNodesWithZeroAndOneParents" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Amazon2Test_optimalUtilization - 2019.07.02 at 22h 49m 11s.xml">
+      <configuration name="Amazon2Test.optimalUtilization" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RemoveDupLettersInStringTest_removeDuplicateLetters - 2019.07.02 at 23h 37m 52s.xml">
+      <configuration name="RemoveDupLettersInStringTest.removeDuplicateLetters" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4291000" />
+    <option name="totallyTimeSpent" value="7819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4839142" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12600537" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -227,8 +292,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08348135" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26287743" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.08348135" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.29745042" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -243,7 +308,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.09182306" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
@@ -276,6 +341,18 @@
           <line>32</line>
           <properties />
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/RemoveDupLettersInStringTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/test/Hard/RemoveDupLettersInStringTest.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -310,6 +387,37 @@
             <element signature="imports" expanded="true" />
             <element signature="e#992#993#0" expanded="true" />
             <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/RangeSumBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Easy/RemoveAdjDups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/test/Hard/RemoveDupLettersInStringTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Java/src/Hard/RemoveDupLettersInString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
