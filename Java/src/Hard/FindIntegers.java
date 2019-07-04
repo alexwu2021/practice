@@ -1,5 +1,8 @@
 package Hard;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Given a positive integer n, find the number of non-negative integers less than or equal to n, whose binary
  * representations do NOT contain consecutive ones.
@@ -20,7 +23,7 @@ package Hard;
  */
 public class FindIntegers {
 
-    public int findIntegers(int num) {
+    public int findIntegers_plain(int num) {
         int count = 0;
         while(num >= 0){
             char[] baNum = Integer.toBinaryString(num).toCharArray();
@@ -34,6 +37,36 @@ public class FindIntegers {
             if(isValid) count++;
             num--;
         }
+        return count;
+    }
+
+    public int findIntegers(int num) {
+     return findIntegers(num, new HashMap<>());
+    }
+
+    private int findIntegers(int num, Map<Integer, Integer> mp) {
+        if(num <= 2)
+            return num + 1;
+
+        if(mp.containsKey(num))
+            return mp.get(num);
+
+        int msb = 31 - Integer.numberOfLeadingZeros(num); // retrieve index of most significant bit
+        int stem = 1 << msb;
+        int subNum = stem - 1;
+
+        int subNum2 = ~(stem) & num;
+
+        // If there is consecutive one after the most significant bit, set subNum2 as subNum >> 1
+        // to consider the next bit as 0
+        if (subNum2 >= (stem - 1) ) {
+            subNum2 = subNum >> 1;
+        }
+
+        // there is no guarantee that subNum + subNum2 == num
+
+        int count = findIntegers(subNum, mp) + findIntegers(subNum2, mp);
+        mp.put(num, count);
         return count;
     }
 }
