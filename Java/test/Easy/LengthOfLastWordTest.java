@@ -7,8 +7,7 @@ import static org.junit.Assert.*;
 public class LengthOfLastWordTest {
 
     @Test
-    public void lengthOfLastWord() {
-
+    public void testLengthOfLastWord() {
         LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
         String s;
         int actual, expected;
@@ -21,6 +20,11 @@ public class LengthOfLastWordTest {
 
         s = "Hello World ";
         expected = 5;
+        actual = lengthOfLastWord.lengthOfLastWord(s);
+        assertTrue(actual == expected);
+
+        s = "Hello My-World";
+        expected = 8;
         actual = lengthOfLastWord.lengthOfLastWord(s);
         assertTrue(actual == expected);
 
@@ -46,5 +50,9 @@ public class LengthOfLastWordTest {
         actual = lengthOfLastWord.lengthOfLastWord(s);
         assertTrue(actual == expected);
 
+        s = " -123 456789";
+        expected = 6;
+        actual = lengthOfLastWord.lengthOfLastWord(s);
+        assertTrue(actual == expected);
     }
 }
