@@ -2,9 +2,6 @@ package CommonTypes;
 
 import java.util.List;
 
-
-
-
 public class NMaryTreeNode {
     public int val;
     public List<NMaryTreeNode> children;

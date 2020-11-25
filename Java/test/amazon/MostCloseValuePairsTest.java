@@ -13,7 +13,7 @@ public class MostCloseValuePairsTest {
     @Test
     public void getPairs() {
         MostCloseValuePairs mostCloseValuePairs = new MostCloseValuePairs();
-        List<int[]> a, b, ret, expected;
+        List<int[]> a, b, ret, expected, retOthers;
         int target;
 
         a = new ArrayList<int[]>();
@@ -32,7 +32,9 @@ public class MostCloseValuePairsTest {
         //interestingly, we can not use assertEqual to resolve it, because each element in the two lists is an array
         //not an integer
         //Assert.assertEquals(ret, expected);
+        retOthers = mostCloseValuePairs.getPairs_Others(a, b, target);
         Assert.assertArrayEquals(ret.toArray(), expected.toArray());
+        Assert.assertArrayEquals(retOthers.toArray(), expected.toArray());
 
 
         a.clear();
@@ -54,7 +56,9 @@ public class MostCloseValuePairsTest {
         expected.add(new int[]{3, 2});
 
         ret = mostCloseValuePairs.getPairs(a, b, target);
+        retOthers = mostCloseValuePairs.getPairs_Others(a, b, target);
         Assert.assertArrayEquals(ret.toArray(), expected.toArray());
+        Assert.assertArrayEquals(retOthers.toArray(), expected.toArray());
 
 
 
@@ -82,7 +86,9 @@ public class MostCloseValuePairsTest {
         expected.add(new int[]{3, 2});
 
         ret = mostCloseValuePairs.getPairs(a, b, target);
+        retOthers = mostCloseValuePairs.getPairs_Others(a, b, target);
         Assert.assertArrayEquals(ret.toArray(), expected.toArray());
+        Assert.assertArrayEquals(retOthers.toArray(), expected.toArray());
 
     }
 }

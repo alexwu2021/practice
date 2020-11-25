@@ -50,8 +50,7 @@ Output: [[1, 3], [3, 2]]
 
  */
 public class MostCloseValuePairs {
-
-    public class SumAndIds{
+    class SumAndIds{
         public int sm;
         public int[] pairs;
         public SumAndIds(int sum, int[] pairs){
@@ -59,6 +58,30 @@ public class MostCloseValuePairs {
             this.pairs = pairs;
         }
     }
+
+    public List<int[]> getPairs_Others(List<int[]> a, List<int[]> b, int target){
+        Map<Integer, List<int[]>> mp = new HashMap<>();//key is sum , value is list of ids from a and b.
+
+        for (int[] aa: a){
+            for (int[] bb : b){
+                int temp = aa[1] + bb[1];
+                mp.computeIfAbsent(temp, x -> new ArrayList<>()).add(new int[] {aa[0], bb[0]});
+            }
+        }
+
+        List<Integer> qualified = new ArrayList<>();
+        for (Integer k : mp.keySet()){
+            if (k <= target){
+                qualified.add(k);
+            }
+        }
+        if (qualified.size() == 0){
+            return new ArrayList<>();
+        }
+        return mp.get(Collections.max(qualified));
+    }
+
+    //---------------------------------------------------------
 
     class SumAndIdsComparator implements Comparator<SumAndIds>{
 
