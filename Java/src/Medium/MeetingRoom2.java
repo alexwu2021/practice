@@ -28,29 +28,19 @@ public class MeetingRoom2 {
         if (intervals == null || intervals.length == 0)
             return 0;
 
-        // Sort the intervals by start time
-        Arrays.sort(intervals, new Comparator<Interval>() {
-            public int compare(Interval a, Interval b) { return a.start - b.start; }
-        });
-
-        // Use a min heap to track the minimum end time of merged intervals
-        PriorityQueue<Interval> heap = new PriorityQueue<Interval>(intervals.length, new Comparator<Interval>() {
-            public int compare(Interval a, Interval b) { return a.end - b.end; }
-        });
-
-        // start with the first meeting, put it to a meeting room
-        heap.offer(intervals[0]);
-
+        Arrays.sort(intervals, (a, b)-> { return a.start - b.start; });
+        PriorityQueue<Interval> pq = new PriorityQueue<>(intervals.length, (a, b)-> { return a.end - b.end; });
+        pq.offer(intervals[0]);
         for (int i = 1; i < intervals.length; i++) {
-            Interval interval = heap.poll();
-            if (intervals[i].start >= interval.end) {
-                interval.end = intervals[i].end;
+            Interval curr = pq.poll();
+            // oh, no conflicts, record this by just relaxing the curr.edn
+            if (intervals[i].start >= curr.end) {
+                curr.end = intervals[i].end;
             } else {
-                heap.offer(intervals[i]);
+                pq.offer(intervals[i]);
             }
-            heap.offer(interval);
+            pq.offer(curr);
         }
-
-        return heap.size();
+        return pq.size();
     }
 }

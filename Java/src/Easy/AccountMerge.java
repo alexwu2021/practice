@@ -26,11 +26,13 @@ public class AccountMerge {
         for(List<String> accn : accounts){
             for(int i = 1; i< accn.size(); ++i){
                 String currentEmail = accn.get(i);
-                if(!mpEmailToEmailSet.containsKey(currentEmail))
-                    mpEmailToEmailSet.put(currentEmail,new HashSet<>());
+                String headEmail = accn.get(1);
+//                if(!mpEmailToEmailSet.containsKey(currentEmail))
+//                    mpEmailToEmailSet.put(currentEmail,new HashSet<>());
+//                mpEmailToEmailSet.get(currentEmail).add(headEmail);
 
-                mpEmailToEmailSet.get(currentEmail).add(accn.get(1));
-                mpEmailToEmailSet.get(accn.get(1)).add(currentEmail);
+                mpEmailToEmailSet.computeIfAbsent(currentEmail, x->new HashSet<>()).add(headEmail);
+                mpEmailToEmailSet.get(headEmail).add(currentEmail);
             }
         }
 
@@ -38,10 +40,11 @@ public class AccountMerge {
         Set<String> visited = new HashSet<>();
         List<List<String>> result = new ArrayList<>();
         for(List<String> accn : accounts){
-            if(!visited.contains(accn.get(1))){
+            String headEmail = accn.get(1);
+            if(!visited.contains(headEmail)){
                 List<String> emailChains = new ArrayList<>();
-                //bfs(graph,visited,accn.get(1), ans); // or
-                dfs(mpEmailToEmailSet,visited,accn.get(1),emailChains);
+                bfs(mpEmailToEmailSet,visited,headEmail, emailChains); // or
+                //dfs(mpEmailToEmailSet,visited,headEmail,emailChains);
                 Collections.sort(emailChains);
                 emailChains.add(0, accn.get(0));
                 result.add(emailChains);
@@ -49,31 +52,31 @@ public class AccountMerge {
         }
         return result;
     }
-    public void dfs(Map<String,Set<String>> graph, Set<String> visited, String s,List<String> emailChains){
-        emailChains.add(s);
-        visited.add(s);
-        for(String str : graph.get(s)){
+    public void dfs(Map<String,Set<String>> mpEmailToEmailSet, Set<String> visited, String email, List<String> emailChains){
+        emailChains.add(email);
+        visited.add(email);
+        for(String str : mpEmailToEmailSet.get(email)){
             if(!visited.contains(str))
-                dfs(graph,visited,str,emailChains);
+                dfs(mpEmailToEmailSet,visited,str,emailChains);
         }
     }
 
 
-//    public void bfs(Map<String,Set<String>> graph, Set<String> visited, String s, List<String> ans){
-//        Queue<String> q = new LinkedList<>();
-//        q.add(s);
-//        visited.add(s);
-//        while(!q.isEmpty()){
-//            String t = q.poll();
-//            ans.add(t);
-//            for(String str:graph.get(t)){
-//                if(!visited.contains(str)){
-//                    q.add(str);
-//                    visited.add(str);
-//                }
-//            }
-//        }
-//    }
+    public void bfs(Map<String,Set<String>> mpEmailToEmailSet, Set<String> visited, String email, List<String> emailChains){
+        Queue<String> q = new LinkedList<>();
+        q.add(email);
+        visited.add(email);
+        while(!q.isEmpty()){
+            String t = q.poll();
+            emailChains.add(t);
+            for(String eml: mpEmailToEmailSet.get(t)){
+                if(!visited.contains(eml)){
+                    q.add(eml);
+                    visited.add(eml);
+                }
+            }
+        }
+    }
 
     // this is the LeetCode's standard solution
     public List<List<String>> accountsMerge_official(List<List<String>> accounts) {
