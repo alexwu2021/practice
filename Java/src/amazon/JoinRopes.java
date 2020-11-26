@@ -38,9 +38,9 @@ public class JoinRopes {
 
         int cost = 0;
         PriorityQueue<Integer> pq = new PriorityQueue<>();
-        for(int s : src){
+        for(int s : src)
             pq.add(s);
-        }
+
         while(!pq.isEmpty()) {
             int first = pq.poll();
             if(pq.isEmpty()){
