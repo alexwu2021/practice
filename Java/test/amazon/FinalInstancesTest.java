@@ -13,9 +13,16 @@ public class FinalInstancesTest {
         int initial, actual, expected;
         int[] utilization;
 
-        initial = 1;
-        utilization = new int[] {1, 3, 5, 10, 80};
-        expected = 2;
+        initial = 5;
+        utilization = new int[] {5
+                ,6
+                ,30
+                ,5
+                ,4
+                ,8
+                ,19
+                ,89};
+        expected = 3;
         actual = finalInstances.getFinalNumberOfInstances(initial, utilization);
         Assert.assertEquals(expected, actual);
 

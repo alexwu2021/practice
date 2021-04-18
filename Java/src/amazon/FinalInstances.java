@@ -23,7 +23,7 @@ public class FinalInstances {
                 }
             }else if(averageUtil[i] < 25){
                 if(ret > 1){
-                    ret = ret / 2 ;
+                    ret = (int)Math.round(Math.ceil((double)ret / 2)) ;
                     taken = true;
                 }
             }

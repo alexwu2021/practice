@@ -1,66 +1,22 @@
 import sys, unittest, timeit
-#import stopwatch  #can't install it due to no matching version
+
 
 class Solution(unittest.TestCase):
-    #passed my own uni test, not tested in lc yet
 
-    #for wujian's way
     low = sys.maxsize
-    maxlen = -sys.maxsize
+    max_len = -sys.maxsize
 
-    def isPalin(self, s):
+    def extend_palindrom(self, s, right, left):
         size = len(s)
-        mid = size // 2
-        i = 0
-        while i < mid:
-            if s[i] != s[size -i -1]:
-                return False
-            i += 1
-        return True
+        while right >= 0 and left < size and s[right] == s[left]:
+            right -= 1
+            left += 1
+        if self.max_len < left - right - 1:
+            self.low = right + 1  # why this?
+            self.max_len = left - right - 1
 
-
-    #there is a time issue with this one,
-    #may be still valid, needs some tuning up
-    def getLongestSubPalindrom_mine_bad(self, s):
-        """
-        :type s: str
-        :rtype: List[List[str]]
-        """
-        mx = -sys.maxsize
-        mxstring = ''
-        size = len(s)
-        dp = [-sys.maxsize] * (size + 1)
-        dp[size] = 1
-        for i in range(size-1, -1, -1):
-            if i == size -1:
-                dp[i] = dp[i + 1]
-                mxstring = s[i]
-            for j in range(i+ 1, size, 1):
-                print ('eval: %s' % s[i:j + 1])
-                if self.isPalin(s[i:j + 1]):
-                    plen = j - i
-                    if plen > mx:
-                        mx = plen
-                        mxstring = s[i:j + 1]
-                    dp[j] = max(dp[j], dp[j+1] + 1)
-                else:
-                    dp[j] = max(dp[j], dp[j+1])
-        print('dp[i]: %s'  % dp[i])
-        return mxstring
-
-
-     #for wujian's way
-    def extendPalindrom(self, s, j, k):
-        size = len(s)
-        while j >= 0 and k < size and s[j] == s[k]:
-            j -= 1
-            k += 1
-        if self.maxlen < k - j - 1:
-            self.low = j + 1 #why this?
-            self.maxlen = k-j -1
-
-    #this one accepted
-    def longestPalindrome(self, s):
+    # this one accepted
+    def longest_palindrome_suboptimal(self, s):
         """
         :type s: str
         :rtype: str
@@ -68,43 +24,71 @@ class Solution(unittest.TestCase):
         if len(s) <= 1:
             return s
         for i in range(len(s)):
-            self.extendPalindrom(s, i, i)
-            self.extendPalindrom(s, i, i+ 1)
-        return s[self.low:self.low + self.maxlen]
-        
-    
-    
-    
+            self.extend_palindrom(s, i, i)
+            self.extend_palindrom(s, i, i + 1)
+        return s[self.low:self.low + self.max_len]
 
-    def test_isPalin(self):
-        #s = 'ababa'
-        s = 'tattarrattat'
-        res = self.isPalin(s)
-        print('input: %s; res: %s' % (s, res))
-        self.assertTrue(res)
-     
-    def test_getLongestSubPalindrom(self):
+    def longest_palindrome(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
+        ml = 1
+        n = len(s)
+        start = 0
+        for i in range(0, n):
+            for j in range(i, n):
+                flag = 1
+                mid = (j - i + 1)//2 + 1
+                for k in range(0,  mid):
+                    if s[i + k] != s[j - k]:
+                        flag = 0
+                if flag == 1 and j -i + 1 > ml:
+                    start = i
+                    ml = j-i + 1
+        return s[start: start + ml]
+
+
+    # def isPalin(self, s):
+    #     size = len(s)
+    #     mid = size // 2
+    #     i = 0
+    #     while i < mid:
+    #         if s[i] != s[size - i - 1]:
+    #             return False
+    #         i += 1
+    #     return True
+
+    # def test_isPalin(self):
+    #     # s = 'ababa'
+    #     s = 'tattarrattat'
+    #     res = self.isPalin(s)
+    #     print('input: %s; res: %s' % (s, res))
+    #     self.assertTrue(res)
+
+    def test_get_longest_sub_palindrom(self):
         s = 'accd'
-        res = self.getLongestSubPalindrom(s)
+        res = self.longest_palindrome(s)
         print('input: %s; res: %s' % (s, res))
         self.assertTrue(res == 'cc')
 
         s = 'tattarrattaty'
-        res = self.getLongestSubPalindrom(s)
+        res = self.longest_palindrome(s)
         print('input: %s; res: %s' % (s, res))
-        self.assertTrue(len(res) == len(s) -1)
+        self.assertTrue(len(res) == len(s) - 1)
 
         s = 'atattarrattatt'
-        res = self.getLongestSubPalindrom(s)
+        res = self.longest_palindrome(s)
         print('input: %s; res: %s' % (s, res))
-        self.assertTrue(len(res) == len(s) -2)
-         
+        self.assertTrue(len(res) == len(s) - 2)
 
-    
+        s = "forgeeksskeegfor"
+        res = self.longest_palindrome(s)
+        print('input: %s; res: %s' % (s, res))
+        self.assertTrue(res == "geeksskeeg")
+
+
+
+
 if __name__ == '__main__':
-    #sol = Solution()
-    #timeitResult = timeit.timeit(sol.test_getLongestSubPalindrom)
-    #print('timeitResult: %s' % timeitResult)
-
     unittest.main()
-    
