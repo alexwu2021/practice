@@ -24,7 +24,8 @@ public class LongestCommonPrefix {
         String first = strs[0];
         for(int j = 0; j < first.length(); ++j){
             Character ch = first.charAt(j);
-            for(int k= 1; k < strs.length; ++k){
+            for(int k = 1; k < strs.length; ++k){
+                // others are shorter or having different char
                 if(j >= strs[k].length() || ch != strs[k].charAt(j)){
                     return ret;
                 }
@@ -36,11 +37,13 @@ public class LongestCommonPrefix {
 
 
     //---------------good to learn---------------
+    //---------------but quite unnecessary---------------
 
-    public String longestCommonPrefix_wl(String[] strs) {
+    public String longestCommonPrefix_recurrsion(String[] strs) {
         if (strs == null || strs.length == 0) return "";
         return longestCommonPrefix(strs, 0 , strs.length - 1);
     }
+
     private String longestCommonPrefix(String[] strs, int l, int r) {
         if (l == r) return strs[l];
 
@@ -52,7 +55,7 @@ public class LongestCommonPrefix {
 
     String commonPrefix(String left, String right) {
         int min = Math.min(left.length(), right.length());
-        for (int i = 0; i < min; i++) {
+        for (int i = 0; i < min; ++i) {
             if ( left.charAt(i) != right.charAt(i) )
                 return left.substring(0, i);
         }
