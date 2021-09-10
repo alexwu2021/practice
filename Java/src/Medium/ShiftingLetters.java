@@ -38,6 +38,25 @@ public class ShiftingLetters {
     }
 
 
+    /** author: Alan24
+     * close to my thinking
+     * @param s
+     * @param shifts
+     * @return
+     */
+    public String shiftingLetters_ref2(String s, int[] shifts) {
+        // calculate the total shifts
+        for(int i=shifts.length-1; i>0; --i){
+            shifts[i-1] += shifts[i]; // add up the shift
+            shifts[i-1] %= 26; // check for integer overflow
+        }
+        char[] charArr = s.toCharArray();
+        for(int i=0; i<s.length(); ++i){
+            charArr[i] = (char)('a'+(charArr[i]-'a' + shifts[i])%26);
+        }
+        return String.valueOf(charArr);
+    }
+
     /** my first implementation, passed OJ, beat 14%
      * @param s
      * @param shifts
