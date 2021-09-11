@@ -2,14 +2,13 @@ package Hard;
 
 import CommonTypes.TreeNode;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class SerializeAndDeserializeBinaryTree {
     // Encodes a tree to a single string.
+
     public String serialize(TreeNode root) {
+        if(root == null) return "[]";
         Queue<TreeNode>q = new LinkedList<>();
         List<List<TreeNode>>layers = new LinkedList<>();
         q.offer(root);
@@ -53,9 +52,39 @@ public class SerializeAndDeserializeBinaryTree {
         return ret + "]";
     }
 
+    private TreeNode createTreeNode(String val){
+        if(val.equals("null"))
+            return null;
+        return new TreeNode(Integer.valueOf(val));
+    }
+
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        return null;
+        data = data.substring(1, data.length()-1);
+        if(data.length() <= 0)
+            return null;
+        TreeNode root = null;
+        if(data.indexOf(",") < 0)
+            return createTreeNode(data);
+
+        String[] sa = data.split(",");
+        root = createTreeNode(sa[0]);
+        Queue<TreeNode>q = new ArrayDeque<>();
+        q.offer(root);
+        int i = 0;
+        while(!q.isEmpty()){
+         TreeNode temp = q.poll();
+         temp.left = createTreeNode(sa[i+1]);  // heap style
+         if(temp.left!= null)
+            q.offer(temp.left);
+
+         temp.right = createTreeNode(sa[i+2]); // heap style
+         if(temp.right!= null)
+            q.offer(temp.right);
+
+         i += 2;
+        }
+        return root;
     }
 }
 
