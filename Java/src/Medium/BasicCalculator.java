@@ -37,25 +37,30 @@ public class BasicCalculator {
         for(String t: lst)
             sb.append(t);
         String target = sb.toString();
-        target = target.replace("--", "+");
-        return DoTheMath(target, 0);
+        return DoTheMath(target);
     }
 
-    private int DoTheMath(String original, int i) {
-        String s= original.substring(i);
+    private int DoTheMath(String s) {
+        if(s == null || s.length() <= 0)
+            return 0;
+
+        s = s.replace("--", "+");
         if(s.indexOf("+") <0 && s.indexOf("-") <0)
             return Integer.valueOf(s);
-        if(s.length() <= 0)
-            return 0;
 
         int val = 0;
         int n = s.length();
+        int i = 0, j = i, k, r;
+        int neg = 1;
+        if(s.startsWith("-")){
+            neg = -1;
+            j++;
+        }
 
-        int j = i, k, r;
         while(j < n && s.charAt(j) != '+' && s.charAt(j) != '-'){
             j++;
         }
-        int left = Integer.valueOf(s.substring(i, j));
+        int left = Integer.valueOf(s.substring(i, j)) * neg;
 
         k= j+ 1;
         r = k;
@@ -72,40 +77,7 @@ public class BasicCalculator {
         if(r == n)
             return val;
 
-        if(s.charAt(r) == '+')
-            return val + DoTheMath(original, r+1);
-        return val - DoTheMath(original, r+1);
+        String remaining = s.substring(r+1);
+        return val + DoTheMath(remaining);
     }
-//    private int DoTheMath(List<String>lst) {
-//        if(lst.size() <= 0)
-//            return 0;
-//
-//        boolean hasOperand = false;
-//        StringBuffer sb = new StringBuffer();
-//        for(String s: lst){
-//            sb.append(s);
-//            if(s.equals("+") || s.equals("-"))
-//                hasOperand = true;
-//        }
-//        if(!hasOperand)
-//            return Integer.valueOf(sb.toString());
-//
-//        int left = Integer.valueOf(lst.get(0));
-//        int right = Integer.valueOf(lst.get(2));
-//        String mid =lst.get(1);
-//        for(int j = 0; j<=2; ++j)
-//            lst.remove(0);
-//
-//        int ret = 0;
-//        if(mid.equals("+")){
-//            ret = left + right;
-//        }else{
-//            ret = left - right;
-//        }
-//
-//        if(lst.size() ==0)
-//            return ret;
-//        lst.add(0, String.valueOf(ret));
-//        return DoTheMath(lst);
-//    }
 }

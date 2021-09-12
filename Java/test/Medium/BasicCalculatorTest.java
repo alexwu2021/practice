@@ -34,10 +34,10 @@ public class BasicCalculatorTest {
 
         // Input: s = "(1+(4+5+2)-3)+(6+8)"
         // Output: 23
-        s = "(1+(4+5+2)-3)+(6+8)";
-        expected = 23;
-        actual = sol.calculate(s);
-        Assert.assertEquals("case 3", expected, actual);
+//        s = "(1+(4+5+2)-3)+(6+8)";
+//        expected = 23;
+//        actual = sol.calculate(s);
+//        Assert.assertEquals("case 3", expected, actual);
 
 
         s = "21+47";
@@ -60,5 +60,19 @@ public class BasicCalculatorTest {
         expected = 3;
         actual = sol.calculate(s);
         Assert.assertEquals("case 6", expected, actual);
+
+
+        s = "(5-(1+(5)))";
+        expected = -1;
+        actual = sol.calculate(s);
+        Assert.assertEquals("case 7", expected, actual);
+
+
+        s = "(6)-(8)-(7)+(1+(6))";
+        actual = sol.calculate(s);
+        expected = -2;
+        Assert.assertEquals("case 7", expected, actual);
+
+
     }
 }
