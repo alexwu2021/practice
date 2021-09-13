@@ -32,13 +32,12 @@ public class BasicCalculatorTest {
         actual = sol.calculate(s);
         Assert.assertEquals("case 2", expected, actual);
 
-        // Input: s = "(1+(4+5+2)-3)+(6+8)"
-        // Output: 23
-//        s = "(1+(4+5+2)-3)+(6+8)";
-//        expected = 23;
-//        actual = sol.calculate(s);
-//        Assert.assertEquals("case 3", expected, actual);
-
+//         Input: s = "(1+(4+5+2)-3)+(6+8)"
+//         Output: 23
+        s = "(1+(4+5+2)-3)+(6+8)";
+        expected = 23;
+        actual = sol.calculate(s);
+        Assert.assertEquals("case 3", expected, actual);
 
         s = "21+47";
         expected = 68;

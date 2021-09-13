@@ -7,8 +7,6 @@ public class BasicCalculator {
         if(s == null)
             return 0;
         s = s.replace(" ", "");
-        if(s.startsWith("-"))
-            s = "0" + s;
         Deque<String> deq = new LinkedList<>();
         int n = s.length();
         int i=0;
@@ -40,23 +38,27 @@ public class BasicCalculator {
         return DoTheMath(target);
     }
 
+
+
     private int DoTheMath(String s) {
         if(s == null || s.length() <= 0)
             return 0;
 
         s = s.replace("--", "+");
-        if(s.indexOf("+") <0 && s.indexOf("-") <0)
-            return Integer.valueOf(s);
+        int neg = 1;
+        int i = 0;
+        String t = s;
+        if(s.startsWith("-")){
+            t = s.substring(1);
+            neg = -1;
+            i++;
+        }
+        if(t.indexOf("+") <0 && t.indexOf("-") <0)
+            return Integer.valueOf(t) * neg;
 
         int val = 0;
         int n = s.length();
-        int i = 0, j = i, k, r;
-        int neg = 1;
-        if(s.startsWith("-")){
-            neg = -1;
-            j++;
-        }
-
+        int j = i, k, r;
         while(j < n && s.charAt(j) != '+' && s.charAt(j) != '-'){
             j++;
         }
@@ -77,7 +79,10 @@ public class BasicCalculator {
         if(r == n)
             return val;
 
+        String operand = "+";
+        if(s.charAt(r) == '-')
+            operand = "-";
         String remaining = s.substring(r+1);
-        return val + DoTheMath(remaining);
+        return  DoTheMath(val + operand + remaining);
     }
 }
