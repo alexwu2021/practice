@@ -3,8 +3,6 @@ package Easy;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * * Example 1:
  *  *
@@ -49,6 +47,14 @@ public class DiffuseTheBombTest {
         k = -2;
         expected = new int []{12,5,6,13};
         actual = sol.decrypt(code, k);
+        Assert.assertArrayEquals(expected, actual);
+
+
+        code = new int[]{2,4,2,4,10,3,10,7,10,5};
+        k = 1;
+        expected = new int []{4,2,4,10,3,10,7,10,5,2};
+        actual = sol.decrypt_initial_attempt(code, k);
+//        actual = sol.decrypt(code, k);
         Assert.assertArrayEquals(expected, actual);
 
     }
