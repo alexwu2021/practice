@@ -1,5 +1,7 @@
 package Easy;
 
+import java.util.Stack;
+
 public class ReverseOnlyLetters {
 
     private boolean isSkippable(char ch){
@@ -10,7 +12,35 @@ public class ReverseOnlyLetters {
         return false;
     }
 
-    public String reverseOnlyLetters(String s) {
+
+    /**
+     * from the leetcode solution
+     * @param S
+     * @return
+     */
+    public String reverseOnlyLetters(String S) {
+        Stack<Character> letters = new Stack();
+        for (char c: S.toCharArray())
+            if (Character.isLetter(c))
+                letters.push(c);
+
+        StringBuilder ans = new StringBuilder();
+        for (char c: S.toCharArray()) {
+            if (Character.isLetter(c))
+                ans.append(letters.pop());
+            else
+                ans.append(c);
+        }
+
+        return ans.toString();
+    }
+
+    /**
+     * initial attempt, passed oj, beated 45% in time, 25% in mem
+     * @param s
+     * @return
+     */
+    public String reverseOnlyLetters_initial(String s) {
         int i = 0, n = s.length();
         int j = n-1;
         char[] ss = s.toCharArray();
