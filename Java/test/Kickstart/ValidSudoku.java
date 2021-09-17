@@ -1,7 +1,7 @@
 package Kickstart;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.io.FileNotFoundException;
+import java.util.*;
 
 /**
  * The first line of the input gives the number of test cases, T. T test cases follow. Each test case starts with an integer N. The next N2 lines describe a completed Sudoku solution, with each line contains exactly N2 integers. All input integers are positive and less than 1000.
@@ -10,6 +10,43 @@ import java.util.Set;
  * For each test case, output one line containing "Case #x: y", where x is the case number (starting from 1) and y is "Yes" (quotes for clarity only) if it is a valid solution, or "No" (quotes for clarity only) if it is invalid. Note that the judge is case-sensitive, so answers of "yes" and "no" will not be accepted.
  */
 public class ValidSudoku {
+
+    public static void main(String[] args) throws FileNotFoundException {
+        List<int[][]>allInputs = new ArrayList<>();
+        ValidSudoku sol = new ValidSudoku();
+        GetInputs(allInputs);
+        for(int i=0; i<allInputs.size(); ++i){
+            boolean res = sol.isValid(allInputs.get(i));
+            System.out.println(String.format("Case #%d: %s", i + 1, res));
+        }
+        return;
+    }
+
+    private static void GetInputs(List<int[][]> allInputs) throws FileNotFoundException {
+        //URL path = ValidSudoku.class.getResource("input.txt");
+        //File f = new File(path.getFile());
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        for(int i=0; i<n; ++i)
+            GetInputs_ScanOne(allInputs, scanner);
+        scanner.close();
+    }
+
+    private static void GetInputs_ScanOne(List<int[][]>allInputs, Scanner scanner) throws FileNotFoundException {
+        int m = scanner.nextInt();
+        int n = m * m;
+        int[][]sdk = new int[n][n];
+        int i;
+        for(i=0; i<n; ++i)
+            sdk[i] = new int[n];
+        for(int r=0; r<n; ++r) {
+            for (int c = 0; c < n; ++c) {
+                sdk[r][c] = scanner.nextInt();
+            }
+        }
+        allInputs.add(sdk);
+    }
+
     private Set<Integer> GetSet(int n){
         Set<Integer>set = new HashSet<>();
         for(int i=1; i<=n; ++i)
