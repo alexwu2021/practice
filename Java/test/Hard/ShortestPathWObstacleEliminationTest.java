@@ -68,6 +68,5 @@ public class ShortestPathWObstacleEliminationTest {
         expected = 20;
         actual = sol.shortestPath(grid, k);
         Assert.assertEquals(expected, actual);
-
     }
 }

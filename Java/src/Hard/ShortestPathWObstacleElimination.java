@@ -14,12 +14,25 @@ import java.util.*;
 public class ShortestPathWObstacleElimination {
 
     private static int[][] dirs = new int[][]{{0,1},{1,0}, {0,-1},{-1,0}};
+
+    // possible replacement of the above
+    // int[] D = {0, 1, 0, -1, 0};
+    // for (int i = 0; i < D.length - 1; ++i)
+    //    int nextR = r + D[i], nextC = c + D[i + 1];
+
+
     // the following is wrong, because in extreme cases, some cell might have not been visited but left
     // behind and we have to go to the left or even up
     // this is found due to the test case #45
 
     //private static int[][] dirs = new int[][]{{0,1},{1,0}};
 
+    /**
+     * with reference to yuhwu's solution
+     * @param grid
+     * @param k
+     * @return
+     */
     public int shortestPath(int[][] grid, int k) {
         if(grid == null) return -1;
         int rows = grid.length;
@@ -118,4 +131,7 @@ public class ShortestPathWObstacleElimination {
             return stepCount;
         return -1;
     }
+
+    //-----------------------------
+    // can we do it in dfs?
 }
