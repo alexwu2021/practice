@@ -68,7 +68,7 @@ public class TargetSum {
     }
 
     private int helper(int val, int[] nums, int i, int target) {
-        int[] key = new int[]{i, target};
+        int[] key = new int[]{i, val};
         if (_mp.containsKey(key)) return _mp.get(key);
         if(i == nums.length){
             if(val == target)
