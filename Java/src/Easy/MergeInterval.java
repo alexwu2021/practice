@@ -2,38 +2,70 @@ package Easy;
 
 import CommonTypes.Interval;
 
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class MergeInterval {
 
-    /** Given a collection of intervals, merge all overlapping intervals.
-     *  passed oj
+    /** 168 / 168 test cases passed.
+     Status: Accepted
+     Runtime: 5 ms
+     Memory Usage: 41.2 MB
+     apparently better
      * @param intervals
      * @return
      */
-    public List<Interval> merge(List<Interval> intervals) {
-        if (intervals.size() <= 1) return intervals;
+    public int[][] merge_sort(int[][] intervals) {
+        if (intervals.length <= 1) return intervals;
 
         // Sort by ascending starting point using an anonymous Comparator
-        intervals.sort((i1, i2) -> i1.start - i2.start);
+        Arrays.sort(intervals, (i1, i2) -> Integer.compare(i1[0], i2[0]));
 
-        List<Interval> result = new LinkedList<>();
-        int start = intervals.get(0).start;
-        int end = intervals.get(0).end;
+        List<int[]> result = new LinkedList<>();
+        int start = intervals[0][0];
+        int end = intervals[0][1];
 
-        for (int i = 1; i< intervals.size(); ++i) {
-            if(intervals.get(i).start <= end){ //pay attention to <=
-                end = Math.max(end, intervals.get(i).end);
+        for (int i = 1; i< intervals.length; ++i) {
+            if(intervals[i][0] <= end){ //pay attention to <=
+                end = Math.max(end, intervals[i][1]);
             } else{
-                result.add(new Interval(start, end));
-                start = intervals.get(i).start;
-                end = intervals.get(i).end;
+                result.add(new int[]{start, end});
+                start = intervals[i][0];
+                end = intervals[i][1];
             }
         }
 
         // Add the last interval
-        result.add(new Interval(start, end));
-        return result;
+        result.add(new int[]{start, end});
+        return result.toArray(new int[result.size()][]);
+    }
+
+    /** 168 / 168 test cases passed.
+     Status: Accepted
+     Runtime: 17 ms
+     Memory Usage: 44.2 MB
+
+     * @param intervals
+     * @return
+     */
+    public int[][] merge_no_sort(int[][] intervals) {
+        List<int[]>res = new ArrayList<>();
+        Queue<int[]> q = new PriorityQueue<int[]>((a, b) ->(a[0] - b[0]));
+        for(int[] intv : intervals) q.offer(intv);
+        while(!q.isEmpty()){
+            int[] front = q.poll();
+            if(q.isEmpty()){
+                res.add(front);
+                break;
+            }
+            int[] top = q.peek();
+            if(front[1] >= top[0]){
+                top = q.poll();
+                q.offer(new int[]{Math.min(front[0], top[0]), Math.max(front[1], top[1])});
+                continue;
+            }else{
+                res.add(front);
+            }
+        }
+        return res.toArray(new int[res.size()][]);
     }
 }
