@@ -6,17 +6,22 @@ package Special.DP;
  * 2) at most 1 transaction is allowed
  */
 public class BuySellStock1 {
+    /**
+     * iterative dp
+     * @param prices
+     * @return
+     */
     public int maxProfit1(int[] prices) {
-        int maxCur = 0, // the maximum value that can be achieved by picking up i;
-                maxSoFar = 0; // cheer picking handle
+        int maxCurr= 0; // the maximum value that can be achieved by picking up i, it may go up and down
+        int maxSoFar = 0; // chery picking, used to snap the largest value in the ups and downs of maxCurr;
         for(int i = 1; i < prices.length; ++i) {
-            maxCur += prices[i] - prices[i - 1];
+            maxCurr += prices[i] - prices[i - 1];
 
-            // however, we have a limiter here: no negative is guaranteed
-            maxCur = Math.max(0, maxCur);
+            // however, we have a limiter here: no negative is allowed
+            maxCurr = Math.max(0, maxCurr);
 
-            // cheer picking
-            maxSoFar = Math.max(maxCur, maxSoFar);
+            // cherry picking
+            maxSoFar = Math.max(maxCurr, maxSoFar);
         }
         return maxSoFar;
     }

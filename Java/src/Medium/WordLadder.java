@@ -22,41 +22,32 @@ public class WordLadder {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Set<String> dictionary = new HashSet<>(wordList);
         if (!dictionary.contains(endWord)) return 0;
-
-        int minLength = 0;
+        int ln = 0;
         Queue<String> q = new LinkedList<>();
         Set<String> v = new HashSet<>(); // visited
-
         q.offer(beginWord);
         v.add(beginWord);
-
         while (!q.isEmpty()) {
             int levelSize = q.size();
-            minLength += levelSize != 0 ? 1 : 0;
-
+            ln += levelSize != 0 ? 1 : 0;
             for (int i = 0; i < levelSize; ++i) {
                 String curr = q.poll();
                 if (curr.equals(endWord))
-                    return minLength;
-
+                    return ln;
                 char[] chars = curr.toCharArray();
                 for (int j = 0; j < chars.length; ++j) {
                     char prevChar = chars[j];
-
                     for (char nextChar = 'a'; nextChar <= 'z'; ++nextChar) {
                         chars[j] = nextChar;
                         String nextWord = new String(chars);
-
-                        // this is the only logic
                         if (dictionary.contains(nextWord) && !v.contains(nextWord)) {
                             q.offer(nextWord);
                             v.add(nextWord);
                         }
                     }
-
                     chars[j] = prevChar;
                 }
-            } // rof
+            }
         }
         return 0;
     }

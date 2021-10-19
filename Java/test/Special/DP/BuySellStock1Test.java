@@ -26,5 +26,10 @@ public class BuySellStock1Test {
         expected = 4;
         res = buySellStock1.maxProfit1(prices);
         assert(res == expected);
+
+        prices = new int [] {2, 4, 1};
+        expected = 2;
+        res = buySellStock1.maxProfit1(prices);
+        assert(res == expected);
     }
 }
