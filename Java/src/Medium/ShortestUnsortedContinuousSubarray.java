@@ -1,20 +1,35 @@
 package Medium;
 
+import java.util.Arrays;
+
 /**
+ * find out the distance between
+ * the leftest index whose value is more than min
+ * the rightest index whose value is less than max
  *
  */
 public class ShortestUnsortedContinuousSubarray {
 
     public int findUnsortedSubarray_simplified(int[] A) {
+
+        System.out.println(Arrays.toString(A));
+        System.out.println("length: " + A.length);
         int n = A.length, mx = A[0], mn = A[n-1];
-        int s = 0, e = 0;
+        int s = 0, // all the rightest index whose value is less than max
+                e = 0;  // all the leftest index whose value is more than min
         for ( int i = 1; i < n; ++i ) {
+            System.out.println(String.format("before A[i]: %d i: %d; mx:%d; mn:%d;  s: %d; e:%d", A[i], i, mx, mn, s, e));
             mx = Math.max(mx, A[i]);
+            if (A[i] < mx)
+                s = i;
+
             mn = Math.min(mn, A[n - 1 - i]);
-            if (A[i] < mx) s = i;
-            if (A[n-1-i] > mn)  e = n - 1 - i;
+            if (A[n-1-i] > mn)
+                e = n - 1 - i;
+            System.out.println(String.format("after i: %d; mx:%d; mn:%d;  s: %d; e:%d", i, mx, mn, s, e));
         }
-        if(s > e) return s - e + 1;
+        if(s > e)
+            return s - e + 1;
         return 0;
     }
 
