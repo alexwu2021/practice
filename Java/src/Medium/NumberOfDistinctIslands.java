@@ -6,6 +6,7 @@ public class NumberOfDistinctIslands {
 
     private static final int[][] delta = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} };
 
+//    TODO: why changing List<Integer> to int[] causes failure in oj
     /** passed oj
      * @param grid
      * @return
