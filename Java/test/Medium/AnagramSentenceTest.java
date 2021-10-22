@@ -15,10 +15,7 @@ public class AnagramSentenceTest {
         s = "cat robed";
         t = "tac bored";
         actual = sol.isAnagramSentence(s, t);
-
         expected = true;
-
         Assert.assertEquals(expected, actual);
-
     }
 }
