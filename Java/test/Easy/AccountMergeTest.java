@@ -20,17 +20,14 @@ public class AccountMergeTest {
         input.add(Arrays.asList(new String[]{"John", "johnsmith@mail.com", "john00@mail.com"}));
         input.add(Arrays.asList(new String[]{"John", "johnnybravo@mail.com"}));
         input.add(Arrays.asList(new String[]{"John", "johnsmith@mail.com", "john_newyork@mail.com"}));
-
-
         input.add(Arrays.asList(new String[]{"Mary", "mary@mail.com"}));
-        
         expected = new ArrayList<>();
-
         expected.add(Arrays.asList(new String[]{"John", "john00@mail.com", "john_newyork@mail.com", "johnsmith@mail.com"}));
         expected.add(Arrays.asList(new String[]{"John", "johnnybravo@mail.com"}));
         expected.add(Arrays.asList(new String[]{"Mary", "mary@mail.com"}));
 
         actual = accountMerge.accountsMerge(input);
+
 
         for(List<String>act : actual){
             for(String a : act){
@@ -44,7 +41,6 @@ public class AccountMergeTest {
             }
         }
 
-
         for(List<String>exp : expected){
             for(String e : exp){
                 boolean found = false;
@@ -56,8 +52,5 @@ public class AccountMergeTest {
                 Assert.assertTrue(found);
             }
         }
-
-
-
     }
 }

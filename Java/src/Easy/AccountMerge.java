@@ -21,43 +21,41 @@ public class AccountMerge {
      * @return
      */
     public List<List<String>> accountsMerge(List<List<String>> accounts) {
+        List<List<String>> ans = new ArrayList<>();
+
         // build the graph
-        Map<String, Set<String>> mpEmailToEmailSet = new HashMap<>();
+        Map<String, Set<String>> mp = new HashMap<>();
         for(List<String> accn : accounts){
             for(int i = 1; i< accn.size(); ++i){
                 String currentEmail = accn.get(i);
                 String headEmail = accn.get(1);
-//                if(!mpEmailToEmailSet.containsKey(currentEmail))
-//                    mpEmailToEmailSet.put(currentEmail,new HashSet<>());
-//                mpEmailToEmailSet.get(currentEmail).add(headEmail);
-
-                mpEmailToEmailSet.computeIfAbsent(currentEmail, x->new HashSet<>()).add(headEmail);
-                mpEmailToEmailSet.get(headEmail).add(currentEmail);
+                mp.computeIfAbsent(currentEmail, x->new HashSet<>()).add(headEmail);
+                mp.get(headEmail).add(currentEmail);
             }
         }
 
         // traverse the graph, find out all the connected subgraph
-        Set<String> visited = new HashSet<>();
-        List<List<String>> result = new ArrayList<>();
+        Set<String> v = new HashSet<>();
         for(List<String> accn : accounts){
             String headEmail = accn.get(1);
-            if(!visited.contains(headEmail)){
-                List<String> emailChains = new ArrayList<>();
-                bfs(mpEmailToEmailSet,visited,headEmail, emailChains); // or
-                //dfs(mpEmailToEmailSet,visited,headEmail,emailChains);
-                Collections.sort(emailChains);
-                emailChains.add(0, accn.get(0));
-                result.add(emailChains);
+            if(!v.contains(headEmail)){
+                List<String> emails = new ArrayList<>();
+                //bfs(mp,v,headEmail, emails); // or
+                dfs(mp,v,headEmail,emails);
+                Collections.sort(emails);
+                emails.add(0, accn.get(0));
+                ans.add(emails);
             }
         }
-        return result;
+        return ans;
     }
-    public void dfs(Map<String,Set<String>> mpEmailToEmailSet, Set<String> visited, String email, List<String> emailChains){
-        emailChains.add(email);
+
+    public void dfs(Map<String,Set<String>> mp, Set<String> visited, String email, List<String> emails){
+        emails.add(email);
         visited.add(email);
-        for(String str : mpEmailToEmailSet.get(email)){
+        for(String str : mp.get(email)){
             if(!visited.contains(str))
-                dfs(mpEmailToEmailSet,visited,str,emailChains);
+                dfs(mp,visited,str,emails);
         }
     }
 

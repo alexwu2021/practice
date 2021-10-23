@@ -5,8 +5,6 @@ public class ListNode {
     public ListNode next;
     public ListNode(int x) { val = x; }
 
-
-
     public static ListNode toNodeList(int[] input){
         ListNode runner = new ListNode(input[0]);
         ListNode ret = runner;
