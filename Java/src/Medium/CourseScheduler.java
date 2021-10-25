@@ -3,146 +3,77 @@ package Medium;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * 207. Course Schedule
+ * Medium
+
+ * There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array
+ * prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.
+ *
+ * For example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.
+ * Return true if you can finish all courses. Otherwise, return false.
+ *
+ *
+ *
+ * Example 1:
+ *
+ * Input: numCourses = 2, prerequisites = [[1,0]]
+ * Output: true
+ * Explanation: There are a total of 2 courses to take.
+ * To take course 1 you should have finished course 0. So it is possible.
+ * Example 2:
+ *
+ * Input: numCourses = 2, prerequisites = [[1,0],[0,1]]
+ * Output: false
+ * Explanation: There are a total of 2 courses to take.
+ * To take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.
+ *
+ *
+ * Constraints:
+ *
+ * 1 <= numCourses <= 105
+ * 0 <= prerequisites.length <= 5000
+ * prerequisites[i].length == 2
+ * 0 <= ai, bi < numCourses
+ * All the pairs prerequisites[i] are unique.
+ */
 public class CourseScheduler {
 
+    /**
+     * based on justjiayu's sol
+     *
+     * @param numCourses
+     * @param prerequisites
+     * @return
+     */
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-
-        int[][] matrix = new int[numCourses][numCourses]; // matrix[i][j] means course j depends on course i
-        int[] dep = new int[numCourses]; // inDegree[i] means how many courses depending on i
-
-        for (int i = 0; i < prerequisites.length; ++i) {
-            int self = prerequisites[i][0];
-            int pre = prerequisites[i][1];
-            dep[self]++;
-            matrix[pre][self] = 1;
+        int[][] matrix = new int[numCourses][numCourses]; // r -> c : self --> pre
+        int[] deg = new int[numCourses]; // in degree of a course
+        for (int r = 0; r < prerequisites.length; ++r) {
+            int self = prerequisites[r][0];
+            int pre = prerequisites[r][1];
+            deg[self]++;
+            matrix[self][pre] = 1;
         }
 
-        Queue<Integer> queue = new LinkedList<>();
-        for (int i = 0; i < dep.length; ++i) {
-            if (dep[i] == 0) queue.offer(i);
+        Queue<Integer> q = new LinkedList<>();
+        for (int r = 0; r < deg.length; ++r) {
+            if (deg[r] == 0) q.offer(r);
         }
 
-        int indpCount = 0; // independent course count
-        while (!queue.isEmpty()) {
-            int currCourse = queue.poll();
-            indpCount++;
-            for (int i = 0; i < numCourses; ++i) {
-                if (matrix[currCourse][i] != 0) {
-                    if (--dep[i] == 0)
-                        queue.offer(i);
+        int count = 0; // independent course count
+        while (!q.isEmpty()) {
+            count++;
+            int curr = q.poll();
+            for (int r = 0; r < numCourses; ++r) {
+                if (matrix[r][curr] != 0) {
+                    if (--deg[r] == 0)
+                        q.offer(r);
                 }
             }
         }
-
-        return indpCount == numCourses;
+        return count == numCourses;
     }
-
-
-//    public boolean canFinish_forStudying(int NUM_OF_COURSES, int[][] prerequisites) {
-//
-//        int[][] matrix = new int[NUM_OF_COURSES][NUM_OF_COURSES]; // matrix[i][j] means course j depends on course i
-//        int[] dep = new int[NUM_OF_COURSES]; // inDegree[i] means how many courses depending on i
-//
-//        for (int i = 0; i < prerequisites.length; ++i) {
-//            int self = prerequisites[i][0];
-//            int pre = prerequisites[i][1];
-//
-//            //if (matrix[pre][self] == 0){
-//            dep[self]++;
-//                // this is correct
-//                //dep[self]++;
-//
-//                // and this is wrong
-//                //dep[pre]++;
-//            //}
-//
-//            matrix[pre][self] = 1;
-//            //System.out.println("i=" + i  + ", self=" + self + ", dep[self]=" + dep[self]);
-//        }
-//
-//        //we cannot do this
-////        for (int i = 0; i < prerequisites.length; ++i) {
-////            int self = prerequisites[i][0];
-////            int pre = prerequisites[i][1];
-////            if (matrix[pre][self] == 0)
-////                dep[self]++;
-////        }
-//
-//
-//        Queue<Integer> queue = new LinkedList<>();
-//        for (int i = 0; i < dep.length; ++i) {
-//            if (dep[i] == 0)
-//                queue.offer(i);
-//        }
-//
-//        int indpCount = 0; // independent course count
-//        while (!queue.isEmpty()) {
-//            int currCourse = queue.poll();
-//            indpCount++;
-//            for (int i = 0; i < NUM_OF_COURSES; ++i) {
-//                if (matrix[currCourse][i] != 0) {
-//                    if (--dep[i] == 0)
-//                        queue.offer(i);
-//                }
-//            }
-//        }
-//
-//        return indpCount == NUM_OF_COURSES;
-//    }
-
-//    public boolean canFinish(int numCourses, int[][] prerequisites) {
-//        Map<Integer, List<Integer>> mp = new HashMap<>();
-//        for(int[] pair: prerequisites){
-//            Integer key = pair[0];
-//            Integer val = pair[1];
-//            if(mp.containsKey((key))){
-//                mp.get(key).add(val);
-//            } else {
-//                List newVales =new ArrayList<Integer>();
-//                newVales.add(val);
-//                mp.put(key, newVales);
-//            }
-//
-//        }
-//
-//        boolean ret = true;
-//        for(int[] pair: prerequisites){
-//            List<Integer> path = new ArrayList<>();
-//            path.add(pair[0]);
-//            if(hasCycle(path, mp)){
-//                ret = false;
-//                break;
-//            }
-//        }
-//        return ret;
-//    }
-//
-//    private boolean hasCycle(List<Integer> path, Map<Integer, List<Integer>>mp){
-//        if(path.size() <= 0) return false;
-//
-//        Integer curr = path.get(path.size()-1);
-//        if(!mp.containsKey(curr)) {
-//            return false;
-//        }
-//
-//        List<Integer> vals = mp.get(curr);
-//        for(Integer val: vals){
-//            if(path.contains(val)) {
-//                if(!mp.containsKey(val))
-//                    return false;
-//
-//                Set<Integer>deps = new HashSet<>(mp.get(val));
-//                for(Integer pth: path){
-//                    if(deps.contains(pth))
-//                        return true;
-//                }
-//            }
-//
-//            path.add(val);
-//            if(hasCycle(path, mp))
-//                return true;
-//        }
-//        return false;
-//    }
 }
+
 
