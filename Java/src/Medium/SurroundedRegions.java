@@ -40,6 +40,10 @@ public class SurroundedRegions {
         if(r == 0 || r  == m-1 || c ==0 || c == n-1) return true;
         return false;
     }
+
+    /**
+     * @param board tle, though correct
+     */
     public void solve_mine(char[][] board) {
         int m = board.length, n = board[0].length;
         boolean[][] v = new boolean[m][n];
