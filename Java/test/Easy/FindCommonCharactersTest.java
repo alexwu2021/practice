@@ -14,4 +14,6 @@ public class FindCommonCharactersTest {
         List<String> res = findCommonCharacters.commonChars(sa);
         assert(res.size() == 3);
     }
+
+
 }
