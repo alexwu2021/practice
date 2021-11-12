@@ -1,33 +1,35 @@
 package Medium;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ZigZagConversion {
 
-    /** passed oj
+    /** passed oj, 5ms
+     *
      * @param s
-     * @param numRows
+     * @param n: numRows
      * @return
      */
-    public String convert(String s, int numRows) {
-        if(numRows <= 1) return s;
-        StringBuilder[] sbs = new StringBuilder[numRows];
-        for(int i = 0; i < sbs.length; ++i)
-            sbs[i] = new StringBuilder();
+    public String convert(String s, int n) {
+        if(n <= 1) return s;
+        List<StringBuilder> sbs = new ArrayList<>();
+        for(int k = 0; k < n; ++k) sbs.add(new StringBuilder());
 
-        int idx = 0, adj = 1;
-        for(Character ch: s.toCharArray()){
-            sbs[idx].append(ch);
-            if(idx == 0) adj = 1;
-            if(idx == numRows - 1) adj = -1;
-            idx += adj;
+        int index = 0;
+        int j = 1; // incremental
+        for(char ch : s.toCharArray()){
+            sbs.get(index).append(ch);
+            if(index == 0){
+                j = 1;
+            }
+            else if(index == n - 1){
+                j = -1;
+            }
+            index += j;
         }
-
         StringBuilder stringBuilder = new StringBuilder();
         for(StringBuilder sb: sbs) stringBuilder.append(sb.toString());
         return stringBuilder.toString();
     }
 }
-
-
-// pay attention to the pitfall: the following way does not work
-// for(StringBuilder sb: sbs)
-//   sb = new StringBuilder();
