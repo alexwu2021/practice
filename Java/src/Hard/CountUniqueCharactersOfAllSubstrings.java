@@ -67,16 +67,16 @@ public class CountUniqueCharactersOfAllSubstrings {
         final int MOD = 1000000007;
         int n = s.length();
         int ans = 0, dp = 0;
-        int[] first = new int[26], second = new int[26];
+        int[] near = new int[26], far = new int[26];
         for(int i=0; i<n; ++i){
             dp++;
 
             int ci = s.charAt(i) - 'A';
-            dp = dp + i - first[ci] * 2 + second[ci];
+            dp = dp + i - near[ci] * 2 + far[ci];
             ans = (ans + dp ) % MOD;
 
-            second[ci] = first[ci];
-            first[ci] = i + 1;
+            far[ci] = near[ci];
+            near[ci] = i + 1;
         }
         return ans;
     }
