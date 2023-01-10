@@ -1,0 +1,7 @@
+use bdp;
+
+SELECT * FROM
+(SELECT * FROM bdp.a)T1
+JOIN
+(SELECT * FROM bdp.a)T2
+ON T1.id=T2.id;

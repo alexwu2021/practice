@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+  <persistence-unit name="persistenceUnitFacts">
+    <class>com.docmatter.ims.db.jpa.DimActionTargetsEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimActionsEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimCommunitiesEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimDatesEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimDiscussionsEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimMessageContextEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimMessagesEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimOperationsEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimProcessingStatusEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimProductGroupsEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimReferenceDataStructureEntity</class>
+    <class>com.docmatter.ims.db.jpa.DimUsersEntity</class>
+    <class>com.docmatter.ims.db.jpa.FactsEntity</class>
+      <class>com.docmatter.db.data.wave.CommWaveEntity</class>
+      <class>com.docmatter.db.data.wave.WaveDmAdminContactEntity</class>
+      <class>com.docmatter.db.data.wave.WaveStateEntity</class>
+      <class>com.docmatter.db.data.wave.WaveStepNotificationEntity</class>
+      <class>com.docmatter.db.data.wave.WaveStatusEntity</class>
+      <properties>
+      <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/wv"/>
+      <property name="hibernate.connection.driver_class" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="hibernate.connection.username" value="dw-feed"/>
+      <property name="hibernate.connection.password" value="dw_D0c_2022"/>
+    </properties>
+  </persistence-unit>
+</persistence>

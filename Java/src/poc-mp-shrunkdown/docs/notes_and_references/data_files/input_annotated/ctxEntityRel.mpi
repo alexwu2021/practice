@@ -1,0 +1,3 @@
+code:       ctxTypeId, ctxId,      ctxTypeIdTo,    ctxIdTo,        accessCtxTypeId,    accessCtxId
+instance:   100,       1,          100,            33221,          100,                33221
+query:      CTXID,      CTXTYPE,    CTXID_TO,       CTXTYPE_TO,     ACCESS_CTXID_TO,    ACCESS_CTXTYPE_TO

@@ -1,0 +1,124 @@
+Alex@mp-2020-5 ~ % brew install sqoop
+Running `brew update --preinstall`...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+imap-backup                                                                        pam-reattach
+==> Updated Formulae
+Updated 52 formulae.
+
+Warning: sqoop has been deprecated because it is deprecated upstream!
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:dddc6d8c871c92f6e5fb1249c28768aa2b4b47c38836a69cf787a639cf5eee73
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:dddc6d8c871c92f6e5fb1249c28768aa2b4b47c38836a69cf787a639cf5eee73?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/coreutils/manifests/9.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/coreutils/blobs/sha256:e59c6a7cd6993b3d61dfa133b4091f731220d10ed7c23f8808870a22bc3ad8a7
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:e59c6a7cd6993b3d61dfa133b4091f731220d10ed7c23f8808870a22bc3ad8a7?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lzo/manifests/2.10
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/lzo/blobs/sha256:0a20a578e6a31ebbe3c5d708af38b1c3ca5ba503612ed28a197cd326505d31dd
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:0a20a578e6a31ebbe3c5d708af38b1c3ca5ba503612ed28a197cd326505d31dd?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/manifests/11.0.12
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:2de8af552742c3caa4d19fa15f6c39c771c20684c0afc0ebaa1e5f9b1ce1801a
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:2de8af552742c3caa4d19fa15f6c39c771c20684c0afc0ebaa1e5f9b1ce1801a?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/hbase/manifests/2.4.6
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/hbase/blobs/sha256:3b6bb361f07fda40372b7de6b6e794aab6a62a247d94141bfb3e7a808f337ae3
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:3b6bb361f07fda40372b7de6b6e794aab6a62a247d94141bfb3e7a808f337ae3?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/manifests/2021-10-26
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:1bbd45c16a0b9912174c553a6d7ae1b67b11abbeb3155eaf03109bb62d8e5381
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:1bbd45c16a0b9912174c553a6d7ae1b67b11abbeb3155eaf03109bb62d8e5381?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/manifests/1.1.1m
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/openssl/1.1/blobs/sha256:bac056f55bf254752ed522eccf37cf2c7cfdc38d46b2c469a777f5feb41cbbc4
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:bac056f55bf254752ed522eccf37cf2c7cfdc38d46b2c469a777f5feb41cbbc4?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zookeeper/manifests/3.7.0_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zookeeper/blobs/sha256:6345ff0c91566327755a61dd9bc5aa77ea76a41e40803e4d51c6798ba2f8dbfc
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:6345ff0c91566327755a61dd9bc5aa77ea76a41e40803e4d51c6798ba2f8dbfc?se=2021-12-15T1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqoop/manifests/1.4.7
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/sqoop/blobs/sha256:04de1ca8398879433620c8bb66cda1c959fb3b724e6ed7638fd7e26d6e132483
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sha256:04de1ca8398879433620c8bb66cda1c959fb3b724e6ed7638fd7e26d6e132483?se=2021-12-15T1
+######################################################################## 100.0%
+==> Installing dependencies for sqoop: gmp, coreutils, lzo, openjdk@11, hbase, ca-certificates, openssl@1.1 and zookeeper
+==> Installing sqoop dependency: gmp
+==> Pouring gmp--6.2.1_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/gmp/6.2.1_1: 21 files, 3.3MB
+==> Installing sqoop dependency: coreutils
+==> Pouring coreutils--9.0.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/coreutils/9.0: 480 files, 13.8MB
+==> Installing sqoop dependency: lzo
+==> Pouring lzo--2.10.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/lzo/2.10: 31 files, 572.7KB
+==> Installing sqoop dependency: openjdk@11
+==> Pouring openjdk@11--11.0.12.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/openjdk@11/11.0.12: 679 files, 297.9MB
+==> Installing sqoop dependency: hbase
+==> Pouring hbase--2.4.6.big_sur.bottle.tar.gz
+🍺  /usr/local/Cellar/hbase/2.4.6: 305 files, 290.5MB
+==> Installing sqoop dependency: ca-certificates
+==> Pouring ca-certificates--2021-10-26.all.bottle.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /usr/local/Cellar/ca-certificates/2021-10-26: 3 files, 208.5KB
+==> Installing sqoop dependency: openssl@1.1
+==> Pouring openssl@1.1--1.1.1m.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1m: 8,081 files, 18.5MB
+==> Installing sqoop dependency: zookeeper
+==> Pouring zookeeper--3.7.0_1.monterey.bottle.tar.gz
+🍺  /usr/local/Cellar/zookeeper/3.7.0_1: 1,084 files, 42.4MB
+==> Installing sqoop
+==> Pouring sqoop--1.4.7.all.bottle.tar.gz
+==> Caveats
+Hadoop, Hive, HBase and ZooKeeper must be installed and configured
+for Sqoop to work.
+==> Summary
+🍺  /usr/local/Cellar/sqoop/1.4.7: 87 files, 18.3MB
+==> Running `brew cleanup sqoop`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> sqoop
+Hadoop, Hive, HBase and ZooKeeper must be installed and configured
+for Sqoop to work.
+Alex@mp-2020-5 ~ % brew install HBase
+Warning: hbase 2.4.6 is already installed and up-to-date.
+To reinstall 2.4.6, run:
+brew reinstall hbase
+Alex@mp-2020-5 ~ % brew install ZooKeeper
+Warning: zookeeper 3.7.0_1 is already installed and up-to-date.
+To reinstall 3.7.0_1, run:
+brew reinstall zookeeper
+Alex@mp-2020-5 ~ % sqoop eval --connect jdbc:mysql://localhost/kpi -- query "select * from ctxentity limit 10 "
+Warning: /usr/local/Cellar/sqoop/1.4.7/libexec/bin/../../accumulo does not exist! Accumulo imports will fail.
+Please set $ACCUMULO_HOME to the root of your Accumulo installation.
+WARNING: log4j.properties is not found. HADOOP_CONF_DIR may be incomplete.
+ERROR: Invalid HADOOP_COMMON_HOME
+Alex@mp-2020-5 ~ % brew install Accumulo
+==> Tapping homebrew/cask
+Cloning into '/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask'...
+remote: Enumerating objects: 609836, done.
+remote: Total 609836 (delta 0), reused 0 (delta 0), pack-reused 609836
+Receiving objects: 100% (609836/609836), 275.25 MiB | 14.73 MiB/s, done.
+Resolving deltas: 100% (431255/431255), done.
+Tapped 3935 casks (4,015 files, 294.9MB).
+Warning: No available formula with the name "accumulo".
+==> Searching for similarly named formulae...
+Error: No similarly named formulae found.
+==> Searching for a previously deleted formula (in the last month)...
+Error: No previously deleted formula found.
+==> Searching taps on GitHub...
+Error: No formulae found in taps.
+Alex@mp-2020-5 ~ % brew install Accumulo                                                                        
