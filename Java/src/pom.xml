@@ -25,7 +25,7 @@
 		<tomcat.version>9.0.33</tomcat.version>
 		<redis.version>3.1.0</redis.version>
 		<embedded-redis.version>0.6</embedded-redis.version>
-		<jackson.version>2.13.1</jackson.version>
+		<jackson.version>2.13.4.2</jackson.version>
 	</properties>
 
 	<profiles>
