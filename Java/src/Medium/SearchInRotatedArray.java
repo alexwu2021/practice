@@ -37,4 +37,43 @@ public class SearchInRotatedArray {
         }
         return res;
     }
+
+
+    public boolean search_good_for_real_test_scenario(int[] nums, int target) {
+        int left = 0, right = nums.length - 1;
+        while ( left <= right ) { // the equal sign!
+            int mid = left + (right - left) / 2; // this should not be rewritten as (right - left) >> 1, which will lead to LTE
+            if(nums[mid] == target) return true;
+
+            // special case: nums[left] = nums[mid] = nums[right]
+            if( nums[mid] == nums[left] && nums[mid] == nums[right]) {
+                left++;
+                right--;
+                continue;
+            }
+
+            // below are two levels of evaluations
+            //   1. target vs. nums[mid], OR
+            //   2. target vs. nums[left] or target vs. nums[right]
+            // we always do affect left and right in this fashion: left = mid + 1 or right = mid - 1
+
+            // the left part is sorted
+            if( nums[mid] >= nums[left] )
+            {
+                if(target > nums[mid] || target < nums[left]) // all we need to do is to inject this: || target < nums[left]
+                    left = mid + 1;
+                else
+                    right = mid - 1;
+                continue;
+            }
+
+            // the right part is sorted
+            if(target < nums[mid] || target > nums[right]) // all we need to do is to inject this: || target > nums[right]
+                right = mid - 1;
+            else
+                left = mid + 1;
+
+        }
+        return false;
+    }
 }
