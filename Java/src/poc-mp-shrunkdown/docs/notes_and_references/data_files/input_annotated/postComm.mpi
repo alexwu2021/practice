@@ -1,3 +1,0 @@
-code:       id,     msId,   ctxType,    ctxId,  type,   createdDate,    createdBy,      lastModifiedDate,   lastModifiedBy,     accessCtxType,      accessCtxId,    mode
-instance:   6746,   10091,  600,        11003,  0,      20131118,       10324,          20131118,           10324,              600,                11003,          1
-query:      id,     msid,   ctxtype,    ctxid,  type,   created_date,   created_by,     last_modified_date, last_modified_by,   access_ctxtype,     access_ctxid,   mode

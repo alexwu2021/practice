@@ -1,3 +1,0 @@
-code:       msId,   level,  type,       state,  threadMsId,     createdDate
-instance:   10032,  1,      0,          1,      10030,          20130917
-query:      msid,   level,  MSG_TYPE,   state,  THREAD_MSID,    CREATED_DATE
