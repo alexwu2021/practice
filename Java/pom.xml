@@ -40,7 +40,7 @@
 			<build>
 				<resources>
 					<resource>
-						<directory>src/main/resources</directory>
+						<directory>resources</directory>
 					</resource>
 				</resources>
 				<directory>target/dev</directory>
@@ -57,7 +57,7 @@
 			<build>
 				<resources>
 					<resource>
-						<directory>src/main/resources</directory>
+						<directory>resources</directory>
 					</resource>
 				</resources>
 				<directory>target/prod</directory>
