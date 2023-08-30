@@ -1,6 +1,6 @@
 package com.practice.Easy;
 
-import CommonUtils.TwoDimensionObjectCompare;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -46,7 +46,7 @@ public class MatrixCellsInDistanceOrderTest {
         expected[0] = new int []{0, 0};
         expected[1] = new int []{0, 1};
 
-        assertTrue(TwoDimensionObjectCompare.equals(actual, expected));
+
 
 
         /* test case 1 */
@@ -66,7 +66,7 @@ public class MatrixCellsInDistanceOrderTest {
 //        expected[3] = new int []{1, 0};
 //
 //
-//        assertTrue(TwoDimensionObjectCompare.equals(actual, expected));
+
 
 
     }

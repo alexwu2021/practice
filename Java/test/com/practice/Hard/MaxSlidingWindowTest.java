@@ -1,6 +1,6 @@
 package com.practice.Hard;
 
-import Medium.MaxProdSubArray;
+
 import org.junit.Test;
 
 public class MaxSlidingWindowTest {

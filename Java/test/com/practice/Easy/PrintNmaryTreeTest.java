@@ -1,6 +1,7 @@
 package com.practice.Easy;
 
-import CommonTypes.NmaryTreeNode2;
+
+import com.practice.DataStructure.CommonTypes.NmaryTreeNode2;
 import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,8 @@
 package com.practice.Medium;
 
-import CommonTypes.ListNode;
+
+
+import com.practice.DataStructure.CommonTypes.ListNode;
 
 import java.util.HashSet;
 import java.util.Set;

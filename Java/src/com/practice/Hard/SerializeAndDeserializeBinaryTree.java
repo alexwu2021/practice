@@ -1,6 +1,8 @@
 package com.practice.Hard;
 
-import CommonTypes.TreeNode;
+
+
+import com.practice.DataStructure.CommonTypes.TreeNode;
 
 import java.util.*;
 

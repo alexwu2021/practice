@@ -1,6 +1,7 @@
 package com.practice.Hard;
 
-import CommonTypes.TreeNode;
+
+import com.practice.DataStructure.CommonTypes.TreeNode;
 import org.junit.Assert;
 import org.junit.Test;
 

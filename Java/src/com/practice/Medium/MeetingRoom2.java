@@ -1,6 +1,8 @@
 package com.practice.Medium;
 
-import CommonTypes.Interval;
+
+
+import com.practice.DataStructure.CommonTypes.Interval;
 
 import java.util.Arrays;
 import java.util.Comparator;

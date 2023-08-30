@@ -1,6 +1,7 @@
 package com.practice.Medium;
 
-import CommonTypes.ListNode;
+
+import com.practice.DataStructure.CommonTypes.ListNode;
 import org.junit.Test;
 
 public class SortSinglyListTest {

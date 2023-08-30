@@ -1,6 +1,6 @@
 package com.practice.Easy;
 
-import CommonTypes.Interval;
+
 
 import java.util.*;
 

@@ -11,7 +11,7 @@ public class EqualPairs {
         for(int i =0; i< grid.length; ++i){
             String key = expr(grid[i]);
             row2Indices.put(key,
-                    row2Indices.computeIfAbsent(key, x->new ArrayList<>()).add(i);
+                    row2Indices.computeIfAbsent(key, x->new ArrayList<>())).add(i);
         }
 
         for(int j =0; j< grid[0].length; ++j){
@@ -20,12 +20,11 @@ public class EqualPairs {
                 colList.add(grid[r][j]);
             }
             String key = expr(colList);
-            col2Indices.put(key, col2Indices.computerIfAbsent(key, x->new ArrayList<>()).add(j));
+            col2Indices.put(key, col2Indices.computeIfAbsent(key, x->new ArrayList<>())).add(j);
         }
 
-
-
-
+        // for now
+        return -1;
 
     }
 

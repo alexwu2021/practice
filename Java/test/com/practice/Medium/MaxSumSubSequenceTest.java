@@ -1,6 +1,6 @@
 package com.practice.Medium;
 
-import Medium.MaxSumSubSequence;
+
 import org.junit.Test;
 
 public class MaxSumSubSequenceTest {

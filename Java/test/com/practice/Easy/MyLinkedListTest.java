@@ -1,6 +1,6 @@
 package com.practice.Easy;
 
-import CommonTypes.ListNode;
+
 import org.junit.Test;
 
 public class MyLinkedListTest {

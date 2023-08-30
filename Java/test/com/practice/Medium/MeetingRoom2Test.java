@@ -1,6 +1,7 @@
 package com.practice.Medium;
 
-import CommonTypes.Interval;
+
+import com.practice.DataStructure.CommonTypes.Interval;
 import org.junit.Assert;
 import org.junit.Test;
 

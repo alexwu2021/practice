@@ -1,6 +1,7 @@
 package com.practice.Easy;
 
-import CommonTypes.ListNode;
+
+import com.practice.DataStructure.CommonTypes.ListNode;
 
 public class PalindromLinkedList {
 

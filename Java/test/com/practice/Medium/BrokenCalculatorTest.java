@@ -1,6 +1,6 @@
 package com.practice.Medium;
 
-import Medium.BrokenCalculator;
+
 import org.junit.Test;
 
 import java.util.Random;

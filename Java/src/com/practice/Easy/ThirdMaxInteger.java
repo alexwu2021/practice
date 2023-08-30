@@ -1,9 +1,6 @@
 package com.practice.Easy;
 
 import java.util.*;
-import java.util.Arrays;
-
-import static com.google.common.primitives.Ints.asList;
 
 public class ThirdMaxInteger {
 

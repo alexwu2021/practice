@@ -1,6 +1,6 @@
 package com.practice.Medium;
 
-import Medium.CarFleet;
+
 import org.junit.Test;
 
 public class CarFleetTest {

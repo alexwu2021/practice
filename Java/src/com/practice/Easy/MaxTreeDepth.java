@@ -1,6 +1,7 @@
 package com.practice.Easy;
 
-import CommonTypes.TreeNode;
+
+import com.practice.DataStructure.CommonTypes.TreeNode;
 
 public class MaxTreeDepth {
     public int maxDepth(TreeNode root) {

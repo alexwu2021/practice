@@ -1,6 +1,7 @@
 package Unclassified;
 
-import Medium.TopFreqK;
+
+import com.practice.Medium.TopFreqK;
 import org.junit.Test;
 
 import java.util.List;

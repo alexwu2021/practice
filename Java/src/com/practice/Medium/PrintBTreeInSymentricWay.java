@@ -1,6 +1,8 @@
 package com.practice.Medium;
 
-import CommonTypes.TreeNode;
+
+
+import com.practice.DataStructure.CommonTypes.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

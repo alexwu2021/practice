@@ -130,6 +130,14 @@
 			<version>${jackson.version}</version>
 		</dependency>
 
+
+<!--		&lt;!&ndash; https://mvnrepository.com/artifact/com.google.guava/guava &ndash;&gt;-->
+<!--		<dependency>-->
+<!--			<groupId>com.google.guava</groupId>-->
+<!--			<artifactId>guava</artifactId>-->
+<!--			<version>32.1.2-jre</version>-->
+<!--		</dependency>-->
+
 		<dependency>
 			<groupId>joda-time</groupId>
 			<artifactId>joda-time</artifactId>

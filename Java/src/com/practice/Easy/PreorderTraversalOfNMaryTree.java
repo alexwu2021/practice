@@ -1,6 +1,8 @@
 package com.practice.Easy;
 
-import CommonTypes.NMaryTreeNode;
+
+
+import com.practice.DataStructure.CommonTypes.NMaryTreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

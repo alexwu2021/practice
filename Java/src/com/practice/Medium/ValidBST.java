@@ -1,6 +1,7 @@
 package com.practice.Medium;
 
-import CommonTypes.TreeNode;
+
+import com.practice.DataStructure.CommonTypes.TreeNode;
 
 public class ValidBST {
 

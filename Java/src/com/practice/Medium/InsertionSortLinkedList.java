@@ -1,6 +1,7 @@
 package com.practice.Medium;
 
-import CommonTypes.ListNode;
+
+import com.practice.DataStructure.CommonTypes.ListNode;
 
 public class InsertionSortLinkedList {
     /** Should be working as recorded from leetcode app

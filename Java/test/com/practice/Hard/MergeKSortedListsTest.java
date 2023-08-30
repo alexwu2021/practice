@@ -1,6 +1,7 @@
 package com.practice.Hard;
 
-import CommonTypes.ListNode;
+
+import com.practice.DataStructure.CommonTypes.ListNode;
 import org.junit.Test;
 
 public class MergeKSortedListsTest {

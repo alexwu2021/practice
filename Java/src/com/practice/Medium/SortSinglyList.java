@@ -1,6 +1,7 @@
 package com.practice.Medium;
 
-import CommonTypes.ListNode;
+
+import com.practice.DataStructure.CommonTypes.ListNode;
 
 /**
  * Sort a linked list in O(n log n) time using constant space complexity.

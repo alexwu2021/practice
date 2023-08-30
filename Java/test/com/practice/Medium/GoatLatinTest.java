@@ -1,6 +1,7 @@
 package com.practice.Medium;
 
-import Easy.GoatLatin;
+
+import com.practice.Easy.GoatLatin;
 import org.junit.Test;
 
 public class GoatLatinTest {

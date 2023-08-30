@@ -1,6 +1,6 @@
 package com.practice.Medium;
 
-import Medium.CourseScheduler;
+
 import org.junit.Test;
 
 import static org.junit.Assert.*;
