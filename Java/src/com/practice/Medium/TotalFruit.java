@@ -1,5 +1,9 @@
 package com.practice.Medium;
 
+/**
+ * 904. Fruit Into Baskets
+ *
+ */
 public class TotalFruit {
 
 
@@ -47,11 +51,14 @@ public class TotalFruit {
                 while(i < fruits.length && fruits[i] == newTail.kind){
                     newTail.endIndex = i;
                     newTail.count++;
+                    i++;
                 }
             }else{
                 newTail = new Tracker(fruits[i], i, 1);
                 setup(fruits, newTail);
+                i++;
             }
+
             trackers[0] = trackers[1];
             trackers[1] = newTail;
             maxSoFar = trackers[0].count + trackers[1].count;

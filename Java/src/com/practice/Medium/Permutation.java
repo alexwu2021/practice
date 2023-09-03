@@ -115,4 +115,3 @@ public class Permutation {
         }
     }
 }
-12
