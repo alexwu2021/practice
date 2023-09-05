@@ -1,10 +1,9 @@
 package com.practice.Easy;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 public class NextGreaterElement {
+
 
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer>mp = new HashMap<>();
@@ -24,7 +23,24 @@ public class NextGreaterElement {
         return ans;
     }
 
-    public int[] nextGreaterElement_nsquare(int[] nums1, int[] nums2) {
+    public int[] nextGreaterElement_readable(int[] nums1, int[] nums2) {
+        Map<Integer, Integer>mp = new HashMap<>();
+        Stack<Integer>stack = new Stack<>();
+        for(int n: nums2){
+            while(stack.size() > 0 && stack.peek() <= n){ // both < and <= work in this case
+                mp.put(stack.pop(), n);
+            }
+            stack.push(n);
+        }
+        List<Integer> res = new ArrayList<>();
+        for(int nm: nums1){
+            res.add(mp.getOrDefault(nm, -1));
+        }
+        return res.stream().mapToInt(i->i).toArray();
+    }
+
+
+    public int[] nextGreaterElement_bruteForce(int[] nums1, int[] nums2) {
         int[] ans = new int[nums1.length];
         int i = 0;
 
