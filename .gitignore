@@ -38,10 +38,9 @@ workspace.xml
 /workspace.xml
 
 
-Python/*/__pycache__/*
+__pycache__
 */__pycache__/
 */__pycache__/*
-
 **/__pycache__
 **/__pycache__/*
 
