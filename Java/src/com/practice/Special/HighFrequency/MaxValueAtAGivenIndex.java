@@ -1,4 +1,4 @@
-package com.practice.highfrequency;
+package com.practice.Special.HighFrequency;
 
 /**
  * 1802. Maximum Value at a Given Index in a Bounded Array

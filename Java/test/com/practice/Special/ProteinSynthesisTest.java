@@ -1,12 +1,11 @@
 package com.practice.Special;
 
+import com.practice.Special.Unsorted.ProteinSynthesis;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-
-import static org.junit.Assert.*;
 
 public class ProteinSynthesisTest {
 

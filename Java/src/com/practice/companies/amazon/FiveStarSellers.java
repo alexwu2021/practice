@@ -1,36 +1,9 @@
 package com.practice.companies.amazon;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.PriorityQueue;
-
-
-//class IntegerArrayComparator implements Comparator<int[]> {
-//
-//    // Overriding compare()method of Comparator
-//    // for descending order of cgpa
-//    public int compare(int[] s1, int[] s2) {
-//        if (((float)s1[0])/s1[1] > ((float)s2[0])/s2[1])
-//            return -1;
-//        else if (((float)s1[0])/s1[1] < ((float)s2[0])/s2[1])
-//            return 1;
-//        else{
-//            if (s1[0] < s2[0])
-//                return -1;
-//            else if (s1[0] > s2[0])
-//                return 1;
-//            else {
-//                return 0;
-//            }
-//        }
-//    }
-//}
-
 
 /**
  * find out the number of minimal number of 5 star reviews to add
- * such that the the simple average of reviews for the compnay's product will reach the threshold
+ * such that the simple average of reviews for the compnay's product will reach the threshold
  */
 public class FiveStarSellers {
     int fiveStartReviews(int[][] productRatings, int ratingsThreshold){
