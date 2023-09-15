@@ -32,11 +32,15 @@ public class TrapRainWater {
         int i = 0;
         while(i < height.length){
             while(!stk.isEmpty() && height[i] > height[stk.peek()]){
-                int topHeight = height[stk.peek()];
+                int oldStackHi = height[stk.peek()];
                 stk.pop();
+
                 if(stk.isEmpty()) break;
+
                 int dis = (i- stk.peek() -1);
-                ans += dis * (Math.min(height[stk.peek()], height[i]) -topHeight);
+                int newHigherHi = Math.min(height[stk.peek()], height[i]);
+
+                ans += dis * (newHigherHi - oldStackHi);
             }
             stk.push(i++);
         }
