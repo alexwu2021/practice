@@ -10,6 +10,7 @@ class NiceXorPairCounts:
     def countPairs(self, A: List[int], low: int, high: int) -> int:
         count = Counter(A)
         high += 1
+
         res = 0
         while high:
             if high & 1:
@@ -69,6 +70,13 @@ class TestNiceXorPairCounts(unittest.TestCase):
         # actual = self.sol.countPairs_simpleCachingTle(input, low, high)
         self.assertEqual(expected, actual)
 
+    def test_case2(self):
+        input = [9,8,4,2,1]
+        low, high = 5, 14
+        expected = 8
+        actual = self.sol.countPairs(input, low, high)
+        # actual = self.sol.countPairs_simpleCachingTle(input, low, high)
+        self.assertEqual(expected, actual)
 
 
 
