@@ -16,7 +16,7 @@ class CountText:
             if prev3 >= 0 and S[prev] == S[prev2] and S[prev] == S[prev3]:
                 dp[i] += dp[prev3]
 
-            if S[prev] in {"7", "9"}:
+            if S[prev] in {'7', '9'}:
                 if prev4 >= 0 and S[prev] == S[prev2] and S[prev] == S[prev3] and S[prev] == S[prev4]:
                     dp[i] += dp[prev4]
             dp[i] %= mod
@@ -31,7 +31,6 @@ class TestCountText(unittest.TestCase):
         expected = 8
         actual = self.sol.countTexts(pressedKeys)
         self.assertEqual(expected, actual)
-
 
     def test_case2(self):
         pressedKeys = "222222222222222222222222222222222222"
