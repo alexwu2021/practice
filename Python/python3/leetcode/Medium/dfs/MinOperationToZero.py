@@ -1,12 +1,13 @@
 import unittest
 from functools import cache
-
 from typing import List
 
 class MinOperationsToZero:
 
+    # locate the sections whose sum is the complement of the given x
+    # find the one with the minimal length
     def minOperations(self, nums: List[int], x: int) -> int:
-        target = sum(nums) - x
+        complement = sum(nums) - x
         curr_sum, max_len = 0, 0
         found = False
         s = 0
@@ -14,11 +15,11 @@ class MinOperationsToZero:
         for e in range(len(nums)):
             curr_sum += nums[e]
 
-            # subtract if possible
-            while s <= e and curr_sum > target:
+            # subtract while possible
+            while s <= e and curr_sum > complement:
                 curr_sum -= nums[s]
                 s += 1
-            if curr_sum == target:
+            if curr_sum == complement:
                 found = True
                 max_len = max(max_len, e - s + 1)
 
