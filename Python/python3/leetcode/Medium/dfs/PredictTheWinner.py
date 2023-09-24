@@ -2,21 +2,25 @@
 import unittest
 from typing import List
 
-class PredictTheWinter:
+class PredictTheWinner:
+
 
     # what is important is the maximum differences between choice rather than the actual numbers
     def predictTheWinner(self, nums: List[int]) -> bool:
-        n = len(nums)
-        def max_diff(left, right):
+
+        def dfs(left, right):
             if left == right: return nums[left]
-            score_by_left = nums[left] - max_diff(left + 1, right)
-            score_by_right = nums[right] - max_diff(left, right - 1)
-            return max(score_by_left, score_by_right)
-        return max_diff(0, n - 1) >= 0
+            return max(nums[left] - dfs(left + 1, right), nums[right] - dfs(left, right - 1))
+        return dfs(0, len(nums) - 1) >= 0  # which diff emerges out as the winner: positive or negative
+
+        def dfs_also_works(nums, left, right):
+            if left == right: return nums[left]
+            return max(nums[left] - dfs_also_works(nums, left + 1, right), nums[right] - dfs_also_works(nums, left, right - 1))
+        return dfs(nums, 0, len(nums) - 1) >= 0
 
 
 class TestPredictTheWinter(unittest.TestCase):
-    sol = PredictTheWinter()
+    sol = PredictTheWinner()
 
     def test_case1(self):
         input = [1,5,2]
