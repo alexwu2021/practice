@@ -1,8 +1,7 @@
 package com.practice.Hard;
 
+import com.practice.Easy.Hard.ThreeEqualParts;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ThreeEqualPartsTest {
     @Test

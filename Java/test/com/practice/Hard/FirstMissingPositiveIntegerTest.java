@@ -1,8 +1,7 @@
 package com.practice.Hard;
 
+import com.practice.Easy.Hard.FirstMissingPositiveInteger;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class FirstMissingPositiveIntegerTest {
 

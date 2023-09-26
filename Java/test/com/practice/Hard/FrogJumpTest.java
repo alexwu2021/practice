@@ -1,5 +1,6 @@
 package com.practice.Hard;
 
+import com.practice.Easy.Hard.FrogJump;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,5 +1,6 @@
 package com.practice.Hard;
 
+import com.practice.Easy.Hard.CountUniqueCharactersOfAllSubstrings;
 import org.junit.Assert;
 import org.junit.Test;
 

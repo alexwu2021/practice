@@ -1,9 +1,7 @@
 package com.practice.Hard;
 
-import org.junit.Before;
+import com.practice.Easy.Hard.LRUCache;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class LRUCacheTest {
     private LRUCache lruCache;

@@ -1,9 +1,8 @@
 package com.practice.Hard;
 
+import com.practice.Easy.Hard.NumberOfCommonGcds;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class NumberOfCommonGcdsTest {
 

@@ -1,5 +1,6 @@
 package com.practice.Hard;
 
+import com.practice.Easy.Hard.FindIntegers;
 import org.junit.Test;
 
 import java.util.Random;

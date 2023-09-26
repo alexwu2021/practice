@@ -2,6 +2,7 @@ package com.practice.Hard;
 
 
 import com.practice.DataStructure.CommonTypes.ListNode;
+import com.practice.Easy.Hard.MergeKSortedLists;
 import org.junit.Test;
 
 public class MergeKSortedListsTest {
