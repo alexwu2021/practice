@@ -1,6 +1,6 @@
 package com.practice.Medium;
 
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * 1027. Longest Arithmetic Subsequence
