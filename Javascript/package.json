@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+
+  "jest": {
+    "testMatch": [
+      "**/__tests__/*.js?(x)"
+    ],
+    "verbose": true
+  },
+
+  "version": "1.0.0",
+  "description": "",
+
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "scripts": {
+    "test": "jest"
+  }
+
+
+}
