@@ -2,18 +2,15 @@ import unittest
 from typing import List, Optional
 from collections import deque, defaultdict
 
+from python3.leetcode.common_types import TreeNode
+
+
 # 314. Binary Tree Vertical Order Traversal
 # Given the root of a binary tree, return the vertical order traversal of its nodes' values.
 # (i.e., from top to bottom, column by column).
 #
 # If two nodes are in the same row and column, the order should be from left to right.
 
-
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
 class VerticalTraverse:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root:
@@ -67,13 +64,6 @@ class TestVerticalTraverse(unittest.TestCase):
         actual = self.sol.verticalOrder(root)
         self.assertEqual(expected, actual)
 
-
-    def test_case2(self):
-        s = "abacab"
-        k = 3
-        expected = ["bac",  "cab"]
-        actual = self.sol.sub_string_k(s, k)
-        self.assertEqual(expected, actual)
 
 
 if __name__ == '__main__':

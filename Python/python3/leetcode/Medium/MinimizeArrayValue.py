@@ -40,27 +40,8 @@ from itertools import accumulate
 
 class MinimizeArrayValue:
     def minimizeArrayValue(self, nums: List[int]) -> int:
-        # the 1 indicates the starting index being 1
-        # v: the accumulated value [0, 1, .., k]
         k = max(v / i for i, v in enumerate(accumulate(nums), 1))
         return math.ceil(k)
-
-    # def minimizeArrayValue(self, nums: List[int]) -> int:
-    #     mn = collections.max(nums)
-    #     def dfs(nums, curr):
-    #         for i in (1, len(nums)):
-    #             if nums[i-1] < nums[i]:
-    #                 nums[i-1] += 1
-    #                 nums[i] -= 1
-    #                 c = collections.max(nums)
-    #                 if c < curr:
-    #                     mn = min(mn, c)
-    #                     dfs(nums, c)
-    #                 nums[i-1] -= 1
-    #                 num[i] += 1
-
-    #     dfs(nums, mn)
-    #     return mn
 
 class TestMinimizeArrayValue(unittest.TestCase):
     sol = MinimizeArrayValue()

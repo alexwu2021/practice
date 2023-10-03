@@ -14,11 +14,5 @@ class Solution(unittest.TestCase):
                 anas[s] = [string]
         return [ anas[x] for x in anas ]
 
-    #this one is also accepted but only beat 25% of python submissions
-    def groupAnagrams(self, strs):
-        dic = defaultdict(list)
-        for string in strs:
-            dic[''.join(sorted(string))] += [string]
-        return [value for key, value in dic.items()]
 
 

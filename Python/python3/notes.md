@@ -2,7 +2,7 @@
 
 dq.popleft()    vs.     q.pop()
 
-however, we have imitate dq.popleft() with the following lines:
+however, we can simulate dq.popleft() with the following lines:
 ```
 q.pop()
 q = q[1:]

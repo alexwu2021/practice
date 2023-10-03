@@ -12,11 +12,11 @@ class PredictTheWinner:
             if left == right: return nums[left]
             return max(nums[left] - dfs(left + 1, right), nums[right] - dfs(left, right - 1))
         return dfs(0, len(nums) - 1) >= 0  # which diff emerges out as the winner: positive or negative
-
-        def dfs_also_works(nums, left, right):
-            if left == right: return nums[left]
-            return max(nums[left] - dfs_also_works(nums, left + 1, right), nums[right] - dfs_also_works(nums, left, right - 1))
-        return dfs(nums, 0, len(nums) - 1) >= 0
+        #
+        # def dfs_also_works(nums, left, right):
+        #     if left == right: return nums[left]
+        #         return max(nums[left] - dfs_also_works(nums, left + 1, right), nums[right] - dfs_also_works(nums, left, right - 1))
+        #     return dfs(nums, 0, len(nums) - 1) >= 0
 
 
 class TestPredictTheWinter(unittest.TestCase):
