@@ -1,3 +1,6 @@
+from python3.leetcode.common_types import TreeNode
+
+
 def sortedArrayToBST(self, nums):
         """
         :type nums: List[int]

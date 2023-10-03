@@ -5,22 +5,7 @@ import itertools
 from operator import mul
 
 class Solution(unittest.TestCase):
-    def maximumProduct_tle(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        mp = {}
-        n, mx = len(nums), -sys.maxsize
-        for i in range(n-2):
-            for j in range(i+ 1, n-1):
-                for k in range(j+ 1, n):
-                    if (i, j) not in mp:
-                        mp[(i, j)] = nums[i] * nums[j]
-                   
-                    mx = max(mx, mp[(i, j)]  * nums[k])
-        return mx
-        
+
          
     def maximumProduct(self, nums):
         """

@@ -24,37 +24,6 @@ class Solution(unittest.TestCase):
         dfs(root)
         return self.mx
 
-    #although this one passed my unit test, it failed oj, so i decided to go with the accepted one
-    #the main concern is that they do this: self.mx = max(self.mx, lpath + rpath)
-    def longestUnivaluePath2(self, root):
-        """
-        :type root: TreeNode
-        :rtype: int
-        """
-        self.mx = -sys.maxsize
-        if not root:
-            return self.max
-        def traverse(node, vpath):
-            if node is None:
-                return
-            if node.left is None and node.right is None:
-                if node.val != vpath[0]:
-                    self.mx = max(self.mx, 1)
-                else:
-                    self.mx = max(self.mx, vpath[1] + 1)
-                return
-            if node.left :
-                if node.val == vpath[0]:
-                    traverse(node.left, (node.val, vpath[1] + 1))
-                else:
-                    traverse(node.left, (node.val, 1))
-            if node.right:
-                if node.val == vpath[0]:
-                    traverse(node.right, (node.val, vpath[1] + 1))
-                else:
-                    traverse(node.right, (node.val, 1))
-        traverse(root, (root.val, 0))
-        return self.mx
 
 
     def test_longestUnivaluePath(self):

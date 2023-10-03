@@ -1,14 +1,9 @@
+from python3.leetcode.common_types import TreeNode
+
+
 class Solution:
-    
-    def constructMaximumBinaryTree_borrowed(self, nums):
-        if nums:
-            pos = nums.index(max(nums))
-            root = TreeNode(nums[pos])
-            root.left = self.constructMaximumBinaryTree(nums[:pos])
-            root.right = self.constructMaximumBinaryTree(nums[pos+1:])
-            return root
-    
-    
+
+
     def constructMaximumBinaryTree(self, nums):
         """
         :type nums: List[int]
