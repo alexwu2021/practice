@@ -1,6 +1,5 @@
 package com.practice.Hard;
 
-import com.practice.Easy.Hard.MinimumOperationsToMakeASubsequence;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,6 +1,5 @@
 package com.practice.Hard;
 
-import com.practice.Easy.Hard.MinimumWorkingTime;
 import org.junit.Assert;
 import org.junit.Test;
 

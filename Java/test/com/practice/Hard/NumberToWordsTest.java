@@ -1,6 +1,5 @@
 package com.practice.Hard;
 
-import com.practice.Easy.Hard.NumberToWords;
 import org.junit.Test;
 
 public class NumberToWordsTest {
