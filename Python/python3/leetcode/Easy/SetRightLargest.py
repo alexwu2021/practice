@@ -32,17 +32,6 @@ class TestSetRightLargest(unittest.TestCase):
 
         self.assertEqual(expected, actual)
 
-    def test_case2(self):
-        target = "101"
-        expected = 3
-        actual = self.sol.minFlips(target)
-        self.assertEqual(expected, actual)
-
-    def test_case3(self):
-        target = "00000"
-        expected = 0
-        actual = self.sol.minFlips(target)
-        self.assertEqual(expected, actual)
 
 if __name__ == '__main__':
     unittest.main()
