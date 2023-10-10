@@ -1,8 +1,7 @@
-package com.practice.SystemDesign;
+package com.practice.Design;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.TreeMap;
 
 /**
  * Write a class RecentCounter to count recent requests.
