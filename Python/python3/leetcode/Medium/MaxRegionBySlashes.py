@@ -1,3 +1,5 @@
+import unittest
+
 # 959. Regions Cut By Slashes
 class MaxRegionBySlashes:
     def regionsBySlashes(self, grid):
@@ -25,3 +27,16 @@ class MaxRegionBySlashes:
                     union((i, j, 3), (i, j, 0))
                     union((i, j, 1), (i, j, 2))
         return len(set(map(find, f)))
+
+
+class TestMaxRegionBySlashes(unittest.TestCase):
+    sol = MaxRegionBySlashes()
+    def test1(self):
+        grid = [" /", "/ "]
+        actual = self.sol.regionsBySlashes(grid)
+        self.assertEqual(2, actual)
+
+
+
+if __name__ == "__main__":
+    unittest.main()
