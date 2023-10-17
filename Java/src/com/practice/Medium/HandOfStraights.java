@@ -28,7 +28,8 @@ public class HandOfStraights {
             if (opened > 0 && i > lastChecked + 1 || opened > mp.get(i))
                 return false;
             q.add(mp.get(i) - opened);
-            lastChecked = i; opened = mp.get(i);
+            lastChecked = i;
+            opened = mp.get(i);
             if (q.size() == W)
                 opened -= q.remove();
         }

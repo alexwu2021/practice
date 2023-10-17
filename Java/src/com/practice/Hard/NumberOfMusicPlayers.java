@@ -16,8 +16,12 @@ public class NumberOfMusicPlayers {
         dp[0][0] = 1; // always have a way to create a player list with 0 unique song
 
         for (int i = 1; i <= goal; ++i) {
-            for (int j = 1; j <= Math.min(i, n); ++j) { // at most n provided, though i is required
-                dp[i][j] = (dp[i - 1][j - 1] * (n - j + 1)) % MOD; // as of now, we can pick from n-(j-1) new song, for dp[i-1][j-1] uses j-1 new song
+            for (int j = 1; j <= Math.min(i, n); ++j) { // at most n palyer list provided
+
+                // not use jth song
+                dp[i][j] = (dp[i - 1][j - 1] * (n - j + 1)) % MOD; // as of now, we can pick from n-(j-1) new song,
+
+                // use it
                 if (j > k) {
                     dp[i][j] = (dp[i][j] + dp[i - 1][j] * (j - k)) % MOD;
                 }

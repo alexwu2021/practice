@@ -5,9 +5,11 @@ package com.practice.Hard;
 import java.util.*;
 
 /**
- * You are given an m x n integer matrix grid where each cell is either 0 (empty) or 1 (obstacle). You can move up, down, left, or right from and to an empty cell in one step.
+ * You are given an m x n integer matrix grid where each cell is either 0 (empty) or 1 (obstacle).
+ * You can move up, down, left, or right from and to an empty cell in one step.
  *
- * Return the minimum number of steps to walk from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1) given that you can eliminate at most k obstacles. If it is not possible to find such walk return -1.
+ * Return the minimum number of steps to walk from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1)
+ * given that you can eliminate at most k obstacles. If it is not possible to find such walk return -1.
  *
  *
  */
@@ -83,55 +85,4 @@ public class ShortestPathWObstacleElimination {
         return -1;
     }
 
-
-    /** This is a naive implementation without pruning, that is, guided by visited
-     *  and this is the reason why my solution can only solve 23 test cases out of 47
-     *  and runs into TLE starting from test case 24
-     * @param grid
-     * @param k
-     * @return
-     */
-    public int shortestPath_tle(int[][] grid, int k) {
-        int ans = -1;
-        if(grid == null) return ans;
-        int rows = grid.length;
-        if(rows == 0) return ans;
-        int cols = grid[0].length;
-
-        int[][][]dists = new int[rows][rows][1];
-        for(int r =0; r<rows; ++r){
-            dists[r] = new int[cols][1];
-        }
-
-        Queue<int[]> cells = new LinkedList<>();
-        cells.add(new int[]{0, 0, k});
-        int stepCount = -1;
-        while(!cells.isEmpty()){
-            int size = cells.size();
-            for(int j=0; j<size; ++j){
-                int[] curr = cells.poll();
-                int row = curr[0];
-                int col = curr[1];
-                int remains = curr[2];
-                dists[row][col][0] = Math.min(dists[row][col][0], remains);
-                if(row == rows -1 && col == cols-1 && dists[row][col][0] >= 0)
-                    return stepCount + 1;
-
-                int newRemains =  grid[row][col] == 1 ?  remains-1 : remains;
-                //System.out.println(String.format("row: %d, col: %d, remains: %d, parent=1 is %b newRemains: %d", row, col, remains, grid[row][col] == 1, newRemains));
-                if(row + 1 < rows && col < cols)
-                    cells.add(new int []{row+1, col, newRemains});
-                if(row < rows && col + 1 < cols)
-                    cells.add(new int []{row, col + 1, newRemains});
-            }
-            stepCount ++;
-        }
-
-        if(dists[rows-1][cols-1][0] >= 0)
-            return stepCount;
-        return -1;
-    }
-
-    //-----------------------------
-    // can we do it in dfs?
 }

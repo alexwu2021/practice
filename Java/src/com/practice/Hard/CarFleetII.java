@@ -1,10 +1,7 @@
 package com.practice.Hard;
 
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * There are n cars traveling at different speeds in the same direction along a one-lane road.
@@ -29,7 +26,7 @@ public class CarFleetII {
         int n = cars.length;
         double[] ans = new double[n];
         for(int i= 0; i<n; ++i) ans[i] = -1;
-        List<int[]> lst = Convert2List(cars);
+        List<int[]> lst = Arrays.asList(cars);
 
         boolean changed;
         do{
@@ -60,10 +57,4 @@ public class CarFleetII {
         return ans;
     }
 
-    private List<int[]> Convert2List(int[][] cars) {
-        List<int[]> ret = new ArrayList<>();
-        for(int [] curr: cars)
-            ret.add(curr);
-        return ret;
-    }
 }
