@@ -1,0 +1,2 @@
+class FindTheLongestBalancedSubstring:
+    pass
