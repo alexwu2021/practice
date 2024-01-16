@@ -1,24 +1,22 @@
 {
   "name": "javascript",
-
   "jest": {
     "testMatch": [
       "**/__tests__/*.js?(x)"
     ],
     "verbose": true
   },
-
   "version": "1.0.0",
   "description": "",
-
-
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "scripts": {
     "test": "jest"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-thunk": "^1.0.0"
   }
-
-
 }
