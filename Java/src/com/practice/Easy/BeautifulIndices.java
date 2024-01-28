@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class BeautifulIndices {
 
-    class Solution {
+
         /**
          * kmp algo
          *
@@ -46,7 +46,7 @@ public class BeautifulIndices {
             }
             return ans;
         }
-    }
+
 
 
     public List<Integer> beautifulIndices_tle(String s, String a, String b, int k) {
