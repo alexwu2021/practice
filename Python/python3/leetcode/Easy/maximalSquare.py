@@ -1,4 +1,4 @@
-class Solution(object):
+class MaximalSquare(object):
     #accepted, beat 54%
     def maximalSquare(self, matrix):
         """
