@@ -2,7 +2,7 @@ package com.practice.Easy;
 
 import java.util.List;
 import java.util.stream.*;
-\
+
 //# Input: n = 4, rounds = [1,3,1,2]
 //        Output: [1,2]
 //        Explanation: The marathon starts at sector 1. The order of the visited sectors is as follows:
