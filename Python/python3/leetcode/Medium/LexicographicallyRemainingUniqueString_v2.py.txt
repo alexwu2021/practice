@@ -1,0 +1,127 @@
+import sys
+from collections import Counter
+
+# version 2
+
+class LexicographicallyRemainingUniqueString:
+
+    # time complexity: O(N**2), where N is the length of input_str
+    # space complexity: O(N)
+    def getRemaining(self, input_str):
+        res = [x for x in input_str]
+        cnt = Counter(input_str)
+        ans = []
+        for i, v in enumerate(res):
+            if cnt[v] == sys.maxsize:
+                continue
+
+            # task 1: admit a char whose frequency as of now is just 1
+            if cnt[v] <= 1:
+                cnt[v] = 0
+                ans.append(v)
+                continue
+
+            # task 2: dedup, that is, drop the first of two occurrences of the same char
+            if i + 1 < len(res) and res[i] == res[i+1]:
+                cnt[v] -= 1
+                continue
+
+            # task 3: drop a char that has at least another occurrence behind another char of a higher ord, to maintain lexicographical order
+            if any(cnt[key] >= 1 for key in cnt.keys() if ord(v) < ord(key)):
+                cnt[v] -= 1
+                continue
+
+            # task 4: admit a char with the highest ord value as of now, in the meantime, exclude its future occurrences from consideration
+            cnt[v] = sys.maxsize # invalidate all the future occurrences of char v
+            ans.append(v)
+
+        return ''.join(ans)
+
+
+s = "aabcb"
+expected = "acb"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = ""
+expected = ""
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "a"
+expected = "a"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "aa"
+expected = "a"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "ffeeddccbbaa"
+expected = "fedcba"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "aabbccddeeff"
+expected = "abcdef"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+
+s = "abba"
+expected = "ba"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "azbbaz"
+expected = "zba"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "wzbbazw"
+expected = "zbaw"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "abacaba"
+expected = "cba"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "zabakcabzzzka"
+expected = "zcbka"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+s = "yyxxzabakcabzzzkayx"
+expected = "zcbkayx"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+
+# extended to include mixed cases
+s = "yyBBxxzabakcabzzzkayx"
+expected = "Bzcbkayx"
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
+
+
+s = "yyBBxxzabakcabzzzkayxBB"
+expected = "zcbkayxB"  # because ord('B') == 66 < ord('A') == 97
+actual = LexicographicallyRemainingUniqueString().getRemaining(s)
+print("actual: %s" % actual)
+assert(expected == actual)
